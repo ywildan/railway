@@ -1,0 +1,183 @@
+{
+  "id": "logika",
+  "title": "Logika & Berpikir Kritis",
+  "description": "Memisahkan fakta dari opini, mengenali jebakan argumen, memahami risiko, dan mengambil keputusan lebih jernih.",
+  "emoji": "🧠",
+  "level": "menengah",
+  "minutes": 25,
+  "tags": ["berpikir kritis", "pelajar", "kerja", "media"],
+  "stations": [
+    {
+      "id": "fakta-opini",
+      "title": "Fakta vs Opini",
+      "summary": "Fakta bisa diuji. Opini bisa diperdebatkan. Banyak masalah bermula saat keduanya tertukar.",
+      "points": [
+        "Fakta: bisa dibuktikan salah atau benar dengan bukti ('Air mendidih pada 100°C di tekanan 1 atm').",
+        "Opini: penilaian atau preferensi ('Bakso lebih enak daripada soto').",
+        "Klaim = pernyataan yang menuntut bukti. Makin besar klaim, makin kuat bukti yang dibutuhkan.",
+        "Tanyakan: 'Apa buktinya?' dan 'Bagaimana caranya membuktikan ini salah?'"
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Mana yang termasuk fakta?",
+          "options": [
+            "Nasi goreng lebih enak daripada mi goreng",
+            "Air mendidih pada 100°C di tekanan 1 atmosfer",
+            "Warna biru paling indah",
+            "Film itu membosankan"
+          ],
+          "answer": 1,
+          "explain": "Pernyataan itu bisa diuji dengan alat ukur dan hasilnya sama bagi siapa pun."
+        },
+        {
+          "id": "q2",
+          "prompt": "'Menurut saya, musim hujan tahun ini lebih menyebalkan.' Termasuk...",
+          "options": ["Fakta terukur", "Opini", "Rumus ilmiah", "Data statistik"],
+          "answer": 1,
+          "explain": "Ada penilaian subjektif ('menyebalkan', 'menurut saya'). Ini sah sebagai opini, bukan fakta."
+        },
+        {
+          "id": "q3",
+          "prompt": "Cara terbaik mengecek sebuah klaim adalah...",
+          "options": [
+            "Mencari siapa yang paling keras menyuarakannya",
+            "Mencari bukti dan kemungkinan sanggahan",
+            "Menghitung berapa banyak yang menyukainya",
+            "Menunggu sampai semua orang setuju"
+          ],
+          "answer": 1,
+          "explain": "Berpikir kritis justru aktif mencari cara klaim itu bisa salah — bukan hanya pembenaran."
+        }
+      ],
+      "cards": [
+        { "front": "Fakta", "back": "Bisa diuji benar/salah dengan bukti" },
+        { "front": "Opini", "back": "Penilaian atau preferensi seseorang" }
+      ]
+    },
+    {
+      "id": "sesat-pikir",
+      "title": "Sesat Pikir Umum",
+      "summary": "Sesat pikir = argumen yang tampak meyakinkan tapi cacat logikanya.",
+      "points": [
+        "Ad hominem: menyerang orangnya, bukan argumennya.",
+        "Bandwagon: 'semua orang melakukannya' bukan berarti benar.",
+        "Straw man: memelintir argumen lawan agar mudah diserang.",
+        "False dilemma: seolah-olah hanya ada dua pilihan, padahal lebih banyak."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "'Usulanmu pasti salah karena kamu masih muda.' Ini contoh...",
+          "options": ["Ad hominem", "Statistik", "Fakta terukur", "Kesimpulan valid"],
+          "answer": 0,
+          "explain": "Serangan ditujukan pada orang (usia), bukan pada isi argumennya."
+        },
+        {
+          "id": "q2",
+          "prompt": "'Jutaan orang memakainya, jadi pasti aman.' Ini contoh...",
+          "options": ["Bandwagon", "Fakta laboratorium", "Uji klinis", "Definisi hukum"],
+          "answer": 0,
+          "explain": "Kepopuleran bukan bukti kebenaran atau keamanan (appeal to popularity)."
+        },
+        {
+          "id": "q3",
+          "prompt": "'Kalau kita tidak melarang A, besok pasti terjadi bencana Z.' Pola ini disebut...",
+          "options": ["Slippery slope (luncur curam)", "Definisi", "Perbandingan", "Contoh konkret"],
+          "answer": 0,
+          "explain": "Merangkai rentetan akibat ekstrem tanpa bukti untuk tiap langkahnya."
+        }
+      ],
+      "cards": [
+        { "front": "Ad hominem", "back": "Menyerang orangnya, bukan argumennya" },
+        { "front": "False dilemma", "back": "Seolah cuma ada 2 pilihan, padahal lebih banyak" }
+      ]
+    },
+    {
+      "id": "probabilitas",
+      "title": "Peluang & Risiko",
+      "summary": "Otak manusia terbiasa dengan cerita, bukan persentase. Karena itu risiko sering salah dibaca.",
+      "points": [
+        "Kejadian independen tidak punya ingatan: koin yang keluar 'gambar' 5 kali tetap 50% di lemparan ke-6.",
+        "Risiko kecil berulang lama-lama menjadi besar: 1% per tahun bukan berarti aman selamanya.",
+        "Bandingkan dengan angka dasar (base rate): 'obat menurunkan risiko 50%' terdengar hebat kalau risiko awalnya 2% (jadi 1%).",
+        "Risiko absolut lebih bermakna daripada risiko relatif."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Koin adil keluar 'gambar' 5 kali berturut-turut. Peluang lemparan ke-6 keluar 'gambar' adalah...",
+          "options": ["Lebih kecil dari 50%", "Tepat 50%", "Lebih besar dari 50%", "Pasti gambar"],
+          "answer": 1,
+          "explain": "Tiap lemparan independen: koin tidak mengingat hasil sebelumnya. Keyakinan sebaliknya disebut gambler's fallacy."
+        },
+        {
+          "id": "q2",
+          "prompt": "Sebuah dadu enam sisi dilempar. Peluang muncul angka genap adalah...",
+          "options": ["1/6", "1/3", "1/2", "2/3"],
+          "answer": 2,
+          "explain": "Angka genap: 2, 4, 6 → tiga dari enam kemungkinan = 3/6 = 1/2."
+        },
+        {
+          "id": "q3",
+          "prompt": "'Obat ini menurunkan risiko sebesar 50%.' Pernyataan ini paling perlu dilengkapi dengan...",
+          "options": [
+            "Warna kemasannya",
+            "Risiko awalnya (angka dasar)",
+            "Nama penjualnya",
+            "Jumlah testimoni"
+          ],
+          "answer": 1,
+          "explain": "Penurunan relatif 50% dari risiko 2% hanya menjadi 1% — selisih absolutnya 1 poin persen."
+        }
+      ],
+      "cards": [
+        { "front": "Kejadian independen", "back": "Tidak punya memori: peluang tetap sama" },
+        { "front": "Risiko absolut", "back": "Selisih nyata, lebih bermakna dari % relatif" }
+      ]
+    },
+    {
+      "id": "keputusan",
+      "title": "Bias & Keputusan",
+      "summary": "Kita jarang sepenuhnya objektif. Mengetahui nama biasnya sudah mengurangi kekuatannya.",
+      "points": [
+        "Confirmation bias: hanya mencari informasi yang membenarkan keyakinan lama.",
+        "Sunk cost fallacy: terus melanjutkan karena sudah terlanjur mengeluarkan biaya/waktu.",
+        "Anchoring: angka pertama yang kita dengar memengaruhi penilaian berikutnya.",
+        "Penawar praktis: tulis kriteria sebelum melihat pilihan, dan minta pendapat yang berbeda."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Hanya membaca berita yang sependapat denganmu disebut...",
+          "options": ["Confirmation bias", "Anchoring", "Randomisasi", "Deduksi"],
+          "answer": 0,
+          "explain": "Algoritma juga memperkuat ini — karena itu sengaja membaca sumber yang berbeda."
+        },
+        {
+          "id": "q2",
+          "prompt": "'Filmnya tidak enak, tapi tiketnya mahal jadi saya tonton sampai habis.' Ini contoh...",
+          "options": ["Sunk cost fallacy", "Peluang objektif", "Logika deduktif", "Eksperimen"],
+          "answer": 0,
+          "explain": "Biaya yang sudah dikeluarkan tidak bisa kembali; yang relevan hanya manfaat ke depan."
+        },
+        {
+          "id": "q3",
+          "prompt": "Cara paling praktis mengurangi bias sebelum memilih adalah...",
+          "options": [
+            "Memutuskan secepat mungkin",
+            "Menulis kriteria penilaian sebelum melihat pilihan",
+            "Mengikuti pilihan orang terdekat",
+            "Menunggu sampai merasa yakin 100%"
+          ],
+          "answer": 1,
+          "explain": "Menetapkan kriteria di awal mencegah penilaian ikut terseret oleh informasi yang muncul belakangan."
+        }
+      ],
+      "cards": [
+        { "front": "Confirmation bias", "back": "Hanya mencari bukti yang membenarkan keyakinan lama" },
+        { "front": "Sunk cost fallacy", "back": "Lanjut karena sudah terlanjur, bukan karena manfaat" }
+      ]
+    }
+  ]
+}

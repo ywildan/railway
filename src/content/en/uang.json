@@ -1,0 +1,203 @@
+{
+  "id": "uang",
+  "title": "Financial Literacy",
+  "description": "Manage everyday money: budgeting, debt, an emergency fund, and investing for a calmer life.",
+  "emoji": "💰",
+  "level": "pemula",
+  "minutes": 25,
+  "tags": ["finance", "family", "small business", "adult"],
+  "stations": [
+    {
+      "id": "anggaran",
+      "title": "Building a Budget",
+      "summary": "A budget is not a prison, it is a map. You control money; money does not control you.",
+      "points": [
+        "The 50/30/20 guide: 50% needs, 30% wants, 20% savings and debt repayment.",
+        "Track every expense for 30 days — the biggest leak is usually a surprise.",
+        "Pay yourself first: move savings at the start of the month, not from whatever is left.",
+        "Overly strict budgets rarely survive; leave room for small things that keep you happy."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Income is 4,000,000 a month. Using the 50/30/20 guide, how much should go to essential needs?",
+          "options": ["800,000", "1,200,000", "2,000,000", "3,000,000"],
+          "answer": 2,
+          "explain": "50% of 4,000,000 is 2,000,000 for essentials such as food, rent, electricity, and transport."
+        },
+        {
+          "id": "q2",
+          "prompt": "Why is it better to save at the beginning of the month?",
+          "options": [
+            "Because banks calculate interest at the start of the month",
+            "So savings are not eaten up by other spending first",
+            "Because banks are closed at month end",
+            "So the money can be withdrawn immediately"
+          ],
+          "answer": 1,
+          "explain": "Pay yourself first: if you wait for the leftover, there is often nothing left."
+        },
+        {
+          "id": "q3",
+          "prompt": "The most sensible first step before building a budget is...",
+          "options": [
+            "Immediately cutting all entertainment spending",
+            "Recording your actual spending for a month",
+            "Borrowing money to cover the shortfall",
+            "Opening accounts at many banks"
+          ],
+          "answer": 1,
+          "explain": "Without real spending data a budget is just a guess. Measure first, then cut the biggest leaks."
+        }
+      ],
+      "cards": [
+        { "front": "50/30/20", "back": "50% needs · 30% wants · 20% savings & debt repayment" },
+        { "front": "Pay yourself first", "back": "Save at the start of the month, not from what is left over" }
+      ]
+    },
+    {
+      "id": "utang-bunga",
+      "title": "Debt & Interest",
+      "summary": "Debt can help or trap you — the difference lies in purpose, interest, and your ability to repay.",
+      "points": [
+        "Tell productive debt apart (business capital, education) from consumer debt (gadgets, holidays).",
+        "Compound interest cuts both ways: it rewards savers and punishes borrowers.",
+        "A safe instalment load is generally no more than 30% of monthly income.",
+        "Read the total amount you will pay, not just the monthly instalment."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "A 10,000,000 loan at 2% interest per month, repaid over 12 months. Roughly how much interest in a year?",
+          "options": ["200,000", "1,200,000", "2,400,000", "10,000,000"],
+          "answer": 2,
+          "explain": "2% × 10,000,000 = 200,000 per month. Over 12 months ≈ 2,400,000 (simple calculation, ignoring the shrinking principal)."
+        },
+        {
+          "id": "q2",
+          "prompt": "Which one is best described as productive debt?",
+          "options": [
+            "Credit card spending on clothes",
+            "A loan to capitalise a small food stall",
+            "Instalments for the newest phone",
+            "Borrowing to eat out often"
+          ],
+          "answer": 1,
+          "explain": "Productive debt creates value or income, so the instalments can be covered by what it generates."
+        },
+        {
+          "id": "q3",
+          "prompt": "The commonly used safe limit for total instalments is...",
+          "options": ["10% of income", "30% of income", "60% of income", "Anything, as long as you pay the minimum"],
+          "answer": 1,
+          "explain": "Above roughly 30% of income, the room for essentials and emergencies becomes too tight."
+        }
+      ],
+      "cards": [
+        { "front": "Productive debt", "back": "Creates value or income: business capital, education, work tools" },
+        { "front": "Safe instalment limit", "back": "Around 30% of monthly income at most" }
+      ]
+    },
+    {
+      "id": "dana-darurat",
+      "title": "Emergency Fund",
+      "summary": "An emergency fund is your safety brake: it keeps you calm when the unexpected happens.",
+      "points": [
+        "Common target: 3–6 times your monthly expenses (closer to 6–12 if income is irregular).",
+        "Keep it somewhere safe and easy to cash out, not in something whose value swings.",
+        "It is not for huge discounts — that belongs to your wants budget.",
+        "Top it up again after use, however small the amount."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Monthly expenses are 3,000,000. What is the minimum emergency fund target (3 months)?",
+          "options": ["3,000,000", "6,000,000", "9,000,000", "18,000,000"],
+          "answer": 2,
+          "explain": "3 × 3,000,000 = 9,000,000 as the first layer of protection."
+        },
+        {
+          "id": "q2",
+          "prompt": "The best place to keep an emergency fund is...",
+          "options": [
+            "Wherever returns are highest, even if it is hard to withdraw",
+            "Safe, liquid, and available at any time",
+            "Locked in for at least five years",
+            "Something whose value rises and falls with the market"
+          ],
+          "answer": 1,
+          "explain": "The point of an emergency fund is to be usable immediately, not to grow the fastest."
+        },
+        {
+          "id": "q3",
+          "prompt": "Which situation is the emergency fund really for?",
+          "options": [
+            "A 70% discount at the electronics store",
+            "Sudden medical costs",
+            "An end-of-year holiday",
+            "Buying a new vehicle"
+          ],
+          "answer": 1,
+          "explain": "It covers urgent, unexpected events, especially health costs and loss of income."
+        }
+      ],
+      "cards": [
+        { "front": "Emergency fund target", "back": "3–6 times monthly expenses (freelancers: 6–12 times)" },
+        { "front": "Key requirement", "back": "Safe and cashable within hours" }
+      ]
+    },
+    {
+      "id": "investasi",
+      "title": "Investing & Inflation",
+      "summary": "Saving keeps your money; investing protects its buying power. You need both — in the right order.",
+      "points": [
+        "Inflation pushes prices up: money that only sits slowly loses purchasing power.",
+        "Higher potential returns always come with higher risk — no exceptions.",
+        "Understand an instrument before buying it; if you do not, that is speculation.",
+        "Be wary of promises of large, fixed, fast profits."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Inflation of 5% a year means...",
+          "options": [
+            "Prices rise by about 5% a year on average",
+            "Your money grows by 5% a year",
+            "Prices fall by 5% a year",
+            "Bank interest is definitely 5% a year"
+          ],
+          "answer": 0,
+          "explain": "Inflation is a general rise in prices. If savings earn 2% while inflation is 5%, your purchasing power falls."
+        },
+        {
+          "id": "q2",
+          "prompt": "The clearest red flag in an investment offer is...",
+          "options": [
+            "It comes with written documents",
+            "It promises large, guaranteed, fast returns",
+            "It explains its risks",
+            "It asks you to study the product first"
+          ],
+          "answer": 1,
+          "explain": "Legitimate investments never guarantee returns. 'Fixed, fast, big' is the classic fraud pattern."
+        },
+        {
+          "id": "q3",
+          "prompt": "The wisest order before you start investing is...",
+          "options": [
+            "Invest first, build the emergency fund later",
+            "Emergency fund ready, high-interest consumer debt cleared, then invest",
+            "Go straight into high-risk instruments",
+            "Just follow a friend's tip without reading anything"
+          ],
+          "answer": 1,
+          "explain": "Build the foundation first: emergency fund and expensive debt, then invest based on goals and risk profile."
+        }
+      ],
+      "cards": [
+        { "front": "Inflation", "back": "A general rise in prices; cash loses buying power over time" },
+        { "front": "High return", "back": "Always paired with high risk" }
+      ]
+    }
+  ]
+}

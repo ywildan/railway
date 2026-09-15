@@ -1,0 +1,208 @@
+{
+  "id": "digital",
+  "title": "Digital Literacy & Safety",
+  "description": "Stay safe online: strong passwords, spotting scams, protecting privacy, and checking facts.",
+  "emoji": "🔐",
+  "level": "pemula",
+  "minutes": 25,
+  "tags": ["security", "internet", "privacy", "all ages"],
+  "stations": [
+    {
+      "id": "sandi",
+      "title": "Strong Passwords",
+      "summary": "A password is the key to your digital home. Using one key for every door is dangerous.",
+      "points": [
+        "Length beats complexity: 12+ characters (a passphrase) beats 'P@ssw0rd'.",
+        "One account, one password. Never reuse your email password on social media.",
+        "Turn on two-factor authentication (2FA) for email, social media, and digital wallets.",
+        "Use a password manager so you do not have to memorise everything."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Which of these passwords is strongest?",
+          "options": ["P@ssw0rd", "letmein123", "MyCatSleepsInsideCardboardBoxes!", "12345678"],
+          "answer": 2,
+          "explain": "A long passphrase is easy to remember but hard for machines to guess. Common patterns like 'P@ssw0rd' are already in cracking dictionaries."
+        },
+        {
+          "id": "q2",
+          "prompt": "Why is reusing the same password on every account risky?",
+          "options": [
+            "It uses too much mobile data",
+            "One leaked account can unlock all the others",
+            "It makes the phone heat up",
+            "Every app forbids it"
+          ],
+          "answer": 1,
+          "explain": "A breach on one site leads to credential stuffing: attackers reuse the same email+password pair elsewhere."
+        },
+        {
+          "id": "q3",
+          "prompt": "What is the purpose of two-factor authentication (2FA)?",
+          "options": [
+            "To double your internet speed",
+            "To add a security layer even if the password leaks",
+            "To delete all old passwords",
+            "To make an account impossible to hack"
+          ],
+          "answer": 1,
+          "explain": "2FA adds a second factor (OTP code or authenticator app). Stay alert though — no system is 100% attack-proof."
+        }
+      ],
+      "cards": [
+        { "front": "Strong password", "back": "Long (12+ characters), unique per account, use a passphrase" },
+        { "front": "2FA", "back": "Second layer: an OTP code or authenticator app" }
+      ]
+    },
+    {
+      "id": "phishing",
+      "title": "Spotting Online Scams",
+      "summary": "Scammers rarely hack systems — they hack panic and impatience.",
+      "points": [
+        "Beware urgency: 'account will be closed', 'you won a prize', 'transfer right now'.",
+        "Check the sender's address, not just its display name.",
+        "Never share an OTP code with anyone, including people claiming to be staff.",
+        "Distrust short links and unsolicited attachments; open the official app yourself."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Someone claiming to be from your bank asks for an OTP to 'verify' you. Best response?",
+          "options": [
+            "Give it so the account is not blocked",
+            "Refuse and call the bank on its official number",
+            "Send only half of the code",
+            "Share it in a family group chat to ask"
+          ],
+          "answer": 1,
+          "explain": "An OTP is the last key to your account. Real bank staff never ask for it by phone or chat."
+        },
+        {
+          "id": "q2",
+          "prompt": "A common sign of a phishing message is...",
+          "options": [
+            "Neatly written with no typos",
+            "Urgent and asking for personal data",
+            "Sent from an official domain",
+            "Contains no links at all"
+          ],
+          "answer": 1,
+          "explain": "Time pressure ('right now', 'within 5 minutes') is used so the victim has no time to think."
+        },
+        {
+          "id": "q3",
+          "prompt": "The safest way to open a 'notification' from your bank or a marketplace?",
+          "options": [
+            "Click the link in the message and log in",
+            "Open the official app or website yourself",
+            "Reply to the message to confirm",
+            "Forward it to a friend first"
+          ],
+          "answer": 1,
+          "explain": "Always travel a road you typed yourself. Links can lead to look-alike sites that are nearly identical."
+        }
+      ],
+      "cards": [
+        { "front": "OTP code", "back": "Secret. Never shared with anyone, including 'staff'" },
+        { "front": "Phishing signs", "back": "Urgent, tempting, or frightening + asks for data or a click" }
+      ]
+    },
+    {
+      "id": "jejak-digital",
+      "title": "Digital Footprints & Privacy",
+      "summary": "What you share online tends to stay — even after you delete it.",
+      "points": [
+        "A digital footprint is every trace left behind: uploads, comments, location, search history.",
+        "Think before sharing photos of your ID card, boarding pass, or home address.",
+        "Review app permissions: does a torch app really need your location?",
+        "Use privacy settings; not every post has to be public."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "A digital footprint is...",
+          "options": [
+            "Only the photos you personally upload",
+            "Every trace left behind: uploads, comments, location, search history",
+            "Only private messages you deleted",
+            "Only data on a work computer"
+          ],
+          "answer": 1,
+          "explain": "It includes data you leave deliberately and unintentionally, including metadata."
+        },
+        {
+          "id": "q2",
+          "prompt": "Which document is riskiest to share on social media?",
+          "options": ["A photo of your ID card", "A landscape photo", "A recipe", "A photo of a plant"],
+          "answer": 0,
+          "explain": "Full identity details can be used to open accounts or borrow money in your name."
+        },
+        {
+          "id": "q3",
+          "prompt": "Why should app permissions be reviewed?",
+          "options": [
+            "So the battery lasts forever",
+            "Because apps can collect more data than they need",
+            "Because every app must request location",
+            "So updates are no longer necessary"
+          ],
+          "answer": 1,
+          "explain": "Least-privilege: grant the smallest set of permissions that still makes the app useful."
+        }
+      ],
+      "cards": [
+        { "front": "Digital footprint", "back": "Every trace from online activity, intentional or not" },
+        { "front": "Privacy rule", "back": "Grant as few permissions as possible" }
+      ]
+    },
+    {
+      "id": "hoaks",
+      "title": "Misinformation & Fact-Checking",
+      "summary": "Fake news spreads on emotion, not evidence. Spend 30 seconds before you share.",
+      "points": [
+        "Read past the headline: hoaxes are often only ever read as headlines.",
+        "Check other credible sources — if only one site reports it, be suspicious.",
+        "Watch the date: old photos and stories are often recycled as today's news.",
+        "Use official fact-checking sites and reverse image search."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "The first step when a shocking story lands in the family group chat is...",
+          "options": [
+            "Share it immediately so others know",
+            "Read it fully, then check other sources",
+            "Reply with an emoji only",
+            "Save it and forget it"
+          ],
+          "answer": 1,
+          "explain": "Pause and verify. Misinformation is engineered to trigger emotions that make you share instantly."
+        },
+        {
+          "id": "q2",
+          "prompt": "A sign that a story may be false is...",
+          "options": [
+            "A named author and clear sources",
+            "A sensational headline that provokes anger or fear",
+            "Links to official institutions",
+            "A complete date for the event"
+          ],
+          "answer": 1,
+          "explain": "Headlines like 'SHOCKING!' or 'VIRAL' that push you to share right away are a warning sign."
+        },
+        {
+          "id": "q3",
+          "prompt": "A disaster photo from 2015 is shared as if it happened today. This is...",
+          "options": ["False context", "Valid news", "Personal opinion", "An advert"],
+          "answer": 0,
+          "explain": "The photo is real, the context is fake. Reverse image search helps find the original source."
+        }
+      ],
+      "cards": [
+        { "front": "Check before sharing", "back": "Read to the end · check other sources · check the date" },
+        { "front": "False context", "back": "An old photo or story reused for a new event" }
+      ]
+    }
+  ]
+}

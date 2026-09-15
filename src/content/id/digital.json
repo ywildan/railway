@@ -1,0 +1,208 @@
+{
+  "id": "digital",
+  "title": "Literasi Digital & Keamanan",
+  "description": "Berinternet dengan aman: kata sandi kuat, mengenali penipuan, menjaga privasi, dan mengecek fakta.",
+  "emoji": "🔐",
+  "level": "pemula",
+  "minutes": 25,
+  "tags": ["keamanan", "internet", "privasi", "semua-usia"],
+  "stations": [
+    {
+      "id": "sandi",
+      "title": "Kata Sandi Kuat",
+      "summary": "Kata sandi adalah kunci rumah digitalmu. Satu kunci yang dipakai di semua pintu itu berbahaya.",
+      "points": [
+        "Panjang lebih penting daripada rumit: 12+ karakter (frasa) lebih kuat daripada 'P@ssw0rd'.",
+        "Satu akun, satu kata sandi. Jangan pakai ulang sandi email untuk media sosial.",
+        "Aktifkan verifikasi dua langkah (2FA) di email, media sosial, dan dompet digital.",
+        "Gunakan pengelola kata sandi agar tidak perlu menghafal semuanya."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Mana kata sandi yang paling kuat di antara ini?",
+          "options": ["P@ssw0rd", "rahasia123", "KucingSayaSukaTidurDiKardus!", "12345678"],
+          "answer": 2,
+          "explain": "Frasa panjang mudah diingat tapi sulit ditebak oleh mesin. Pola umum seperti 'P@ssw0rd' justru sudah ada di kamus peretas."
+        },
+        {
+          "id": "q2",
+          "prompt": "Mengapa memakai kata sandi yang sama untuk semua akun berbahaya?",
+          "options": [
+            "Karena boros kuota internet",
+            "Karena satu akun bocor bisa membuka semua akun lain",
+            "Karena membuat ponsel cepat panas",
+            "Karena dilarang oleh semua aplikasi"
+          ],
+          "answer": 1,
+          "explain": "Kebocoran di satu situs membuat pelaku mencoba kombinasi email+sandi yang sama di layanan lain (credential stuffing)."
+        },
+        {
+          "id": "q3",
+          "prompt": "Apa gunanya verifikasi dua langkah (2FA)?",
+          "options": [
+            "Menggandakan kecepatan internet",
+            "Menambah lapisan keamanan walau kata sandi sudah bocor",
+            "Menghapus semua kata sandi lama",
+            "Membuat akun tidak bisa diretas sama sekali"
+          ],
+          "answer": 1,
+          "explain": "2FA menambah lapisan kedua (kode OTP/aplikasi autentikator). Tetap waspada — tidak ada sistem yang 100% kebal."
+        }
+      ],
+      "cards": [
+        { "front": "Sandi kuat", "back": "Panjang (12+ karakter), unik per akun, pakai frasa" },
+        { "front": "2FA", "back": "Lapisan kedua: kode OTP atau aplikasi autentikator" }
+      ]
+    },
+    {
+      "id": "phishing",
+      "title": "Mengenali Penipuan Online",
+      "summary": "Penipuan jarang meretas sistem — mereka meretas rasa panik dan rasa ingin cepat.",
+      "points": [
+        "Waspadai pesan mendesak: 'akun akan ditutup', 'menang hadiah', 'transfer sekarang juga'.",
+        "Cek alamat pengirim, bukan hanya nama tampilannya.",
+        "Jangan pernah membagikan kode OTP kepada siapa pun, termasuk yang mengaku petugas.",
+        "Curiga pada tautan pendek dan lampiran tak diminta; buka aplikasi resminya sendiri."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Seseorang mengaku dari bank meminta kode OTP untuk 'verifikasi'. Tindakan terbaik?",
+          "options": [
+            "Berikan saja supaya rekening tidak diblokir",
+            "Tolak dan hubungi bank lewat nomor resmi",
+            "Kirim separuh kodenya saja",
+            "Bagikan ke grup keluarga untuk ditanyakan"
+          ],
+          "answer": 1,
+          "explain": "Kode OTP adalah kunci terakhir. Pihak bank resmi tidak pernah memintanya lewat telepon atau chat."
+        },
+        {
+          "id": "q2",
+          "prompt": "Ciri umum pesan phishing adalah...",
+          "options": [
+            "Ditulis rapi tanpa salah ketik",
+            "Mendesak dan meminta data pribadi",
+            "Dikirim dari domain resmi",
+            "Tidak berisi tautan apa pun"
+          ],
+          "answer": 1,
+          "explain": "Tekanan waktu ('sekarang juga', '5 menit lagi') dipakai agar korban tidak sempat berpikir."
+        },
+        {
+          "id": "q3",
+          "prompt": "Cara paling aman membuka 'pemberitahuan' dari bank atau marketplace?",
+          "options": [
+            "Klik tautan di pesan, lalu login",
+            "Buka aplikasi atau situs resminya sendiri",
+            "Balas pesan untuk memastikan",
+            "Teruskan pesan ke teman dulu"
+          ],
+          "answer": 1,
+          "explain": "Selalu masuk lewat jalan yang kamu ketik sendiri. Tautan bisa mengarah ke situs palsu yang tampak identik."
+        }
+      ],
+      "cards": [
+        { "front": "Kode OTP", "back": "Rahasia. Tidak pernah dibagikan ke siapa pun, termasuk 'petugas'" },
+        { "front": "Tanda phishing", "back": "Mendesak, menggiurkan, atau menakut-nakuti + minta data/klik tautan" }
+      ]
+    },
+    {
+      "id": "jejak-digital",
+      "title": "Jejak Digital & Privasi",
+      "summary": "Apa yang kamu sebarkan di internet cenderung tinggal lama — bahkan setelah kamu hapus.",
+      "points": [
+        "Jejak digital = semua data yang tertinggal: unggahan, komentar, lokasi, riwayat pencarian.",
+        "Pikirkan dulu sebelum membagikan foto KTP, tiket pesawat, atau alamat rumah.",
+        "Tinjau ulang izin aplikasi: apakah aplikasi senter perlu tahu lokasimu?",
+        "Gunakan pengaturan privasi; tidak semua unggahan harus untuk publik."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Contoh jejak digital adalah...",
+          "options": [
+            "Hanya foto yang kamu unggah sendiri",
+            "Semua data tertinggal: unggahan, komentar, lokasi, riwayat pencarian",
+            "Hanya pesan pribadi yang dihapus",
+            "Hanya data di komputer kantor"
+          ],
+          "answer": 1,
+          "explain": "Jejak digital mencakup data yang kamu tinggalkan sengaja maupun tanpa sadar, termasuk metadata."
+        },
+        {
+          "id": "q2",
+          "prompt": "Dokumen berikut yang paling berisiko dibagikan di media sosial adalah...",
+          "options": ["Foto KTP/kartu identitas", "Foto pemandangan", "Resep masakan", "Foto tanaman"],
+          "answer": 0,
+          "explain": "Identitas lengkap bisa dipakai untuk membuka rekening atau pinjaman atas namamu."
+        },
+        {
+          "id": "q3",
+          "prompt": "Kenapa izin aplikasi perlu ditinjau ulang?",
+          "options": [
+            "Supaya baterai lebih awet selamanya",
+            "Karena aplikasi bisa mengumpulkan data lebih banyak daripada yang dibutuhkan",
+            "Karena semua aplikasi wajib meminta lokasi",
+            "Supaya tidak perlu update aplikasi"
+          ],
+          "answer": 1,
+          "explain": "Principle of least privilege: berikan izin sekecil mungkin yang masih membuat aplikasi berguna."
+        }
+      ],
+      "cards": [
+        { "front": "Jejak digital", "back": "Semua data tertinggal dari aktivitas online, sengaja atau tidak" },
+        { "front": "Aturan privasi", "back": "Berikan izin sesedikit mungkin yang masih perlu" }
+      ]
+    },
+    {
+      "id": "hoaks",
+      "title": "Hoaks & Cek Fakta",
+      "summary": "Berita palsu menyebar karena emosi, bukan karena bukti. Luangkan 30 detik sebelum membagikan.",
+      "points": [
+        "Baca judul sampai selesai: hoaks seringnya hanya judul yang dibaca.",
+        "Cek sumber lain yang kredibel — kalau hanya satu situs yang memberitakan, curiga.",
+        "Perhatikan tanggal: foto atau berita lama sering dipakai ulang sebagai kejadian hari ini.",
+        "Gunakan situs/fakta pengecekan resmi dan lakukan pencarian gambar terbalik."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Langkah pertama saat menerima berita yang mengejutkan di grup keluarga adalah...",
+          "options": [
+            "Langsung bagikan supaya orang lain tahu",
+            "Baca isinya sampai selesai lalu cek sumber lain",
+            "Balas dengan emotikon saja",
+            "Simpan lalu lupakan"
+          ],
+          "answer": 1,
+          "explain": "Berhenti sejenak dan verifikasi. Hoaks dirancang memancing emosi supaya langsung dibagikan."
+        },
+        {
+          "id": "q2",
+          "prompt": "Tanda berita kemungkinan hoaks adalah...",
+          "options": [
+            "Mencantumkan nama penulis dan sumber jelas",
+            "Judul sensasional dan memancing marah/takut",
+            "Menautkan ke lembaga resmi",
+            "Menulis tanggal kejadian dengan lengkap"
+          ],
+          "answer": 1,
+          "explain": "Judul 'Heboh!', 'VIRAL', atau yang memaksa kamu segera membagikan adalah tanda untuk berhati-hati."
+        },
+        {
+          "id": "q3",
+          "prompt": "Foto bencana dari tahun 2015 dibagikan sebagai kejadian hari ini. Ini contoh...",
+          "options": ["Konteks yang salah", "Berita valid", "Opini pribadi", "Iklan"],
+          "answer": 0,
+          "explain": "Fotonya asli, konteksnya palsu. Pencarian gambar terbalik membantu menemukan sumber aslinya."
+        }
+      ],
+      "cards": [
+        { "front": "Cek sebelum sebar", "back": "Baca sampai habis · cek sumber lain · cek tanggal" },
+        { "front": "Konteks salah", "back": "Foto/berita lama dipakai untuk peristiwa baru" }
+      ]
+    }
+  ]
+}

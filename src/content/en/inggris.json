@@ -1,0 +1,183 @@
+{
+  "id": "inggris",
+  "title": "Everyday English",
+  "description": "Sharpen the English you use daily: polite requests, commonly confused words, agreement & tense, and clear writing.",
+  "emoji": "🔤",
+  "level": "pemula",
+  "minutes": 25,
+  "tags": ["language", "english", "students", "work"],
+  "stations": [
+    {
+      "id": "sapaan",
+      "title": "Greetings & Politeness",
+      "summary": "Register matters: the right level of formality makes requests land well.",
+      "points": [
+        "'Hello' is safe everywhere; 'Hi' is casual; 'Good morning' is more formal.",
+        "Introduce yourself with 'My name is Ani' or 'I'm Ani', and reply with 'Nice to meet you'.",
+        "'How are you?' is small talk — answer briefly: 'I'm good, thanks. And you?'",
+        "Soften requests: 'Could you ...' and 'Would it be possible to ...' sound far politer than bare imperatives."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Which is the most polite way to ask a colleague for a favour?",
+          "options": ["Send me the file.", "Could you send me the file, please?", "I need the file now.", "Give file."],
+          "answer": 1,
+          "explain": "'Could you ...' + 'please' turns an order into a request and keeps the relationship warm."
+        },
+        {
+          "id": "q2",
+          "prompt": "Someone says 'Nice to meet you.' The natural reply is...",
+          "options": ["Nice to meet you too.", "See you yesterday.", "I am fine, thank you.", "Good night."],
+          "answer": 0,
+          "explain": "Add 'too' to return the same sentiment."
+        },
+        {
+          "id": "q3",
+          "prompt": "'How are you?' in everyday conversation is usually...",
+          "options": ["A medical question", "Small talk needing a short answer", "A request for your life story", "A complaint"],
+          "answer": 1,
+          "explain": "Answer briefly and bounce it back: 'Good, thanks. How about you?'"
+        }
+      ],
+      "cards": [
+        { "front": "Soften a request", "back": "Could you .../ Would it be possible to ..." },
+        { "front": "Small talk reply", "back": "I'm good, thanks. And you?" }
+      ]
+    },
+    {
+      "id": "keseharian",
+      "title": "Commonly Confused Words",
+      "summary": "Small spelling choices change meaning — and readers notice.",
+      "points": [
+        "their = belonging to them · there = a place · they're = they are.",
+        "your = belonging to you · you're = you are.",
+        "its = belonging to it · it's = it is (or it has).",
+        "affect = a verb (to influence) · effect = a noun (the result); 'a side effect', 'it affects me'."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Choose the correct sentence.",
+          "options": [
+            "Their going to the market.",
+            "There going to the market.",
+            "They're going to the market.",
+            "Them going to the market."
+          ],
+          "answer": 2,
+          "explain": "'They're' is short for 'they are'. Their shows possession; there points to a place."
+        },
+        {
+          "id": "q2",
+          "prompt": "Choose the correct sentence.",
+          "options": [
+            "Its raining outside.",
+            "It's raining outside.",
+            "Its' raining outside.",
+            "It is' raining outside."
+          ],
+          "answer": 1,
+          "explain": "'It's' means 'it is'. 'Its' is possessive: 'The train lost its last carriage.'"
+        },
+        {
+          "id": "q3",
+          "prompt": "Choose the correct sentence.",
+          "options": [
+            "The medicine affected my sleep.",
+            "The medicine effected my sleep.",
+            "The medicine effect my sleep.",
+            "The medicine affecting my sleep."
+          ],
+          "answer": 0,
+          "explain": "Affect is the verb (to influence); effect is the noun (a result): 'The effect was immediate.'"
+        }
+      ],
+      "cards": [
+        { "front": "their / there / they're", "back": "possession · place · they are" },
+        { "front": "affect / effect", "back": "verb (to influence) · noun (the result)" }
+      ]
+    },
+    {
+      "id": "tenses",
+      "title": "Agreement & Tense",
+      "summary": "Most writing errors come from shaky agreement between subject and verb.",
+      "points": [
+        "Present simple for habits and facts: 'I work from home.'",
+        "Present continuous for what is happening now: 'I am working right now.'",
+        "Third person singular takes -s: 'She goes to the office every day.'",
+        "Questions and negatives use do/does in the present simple: 'Do you like it?' 'She doesn't know.'"
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Choose the correct sentence.",
+          "options": ["She go to school daily.", "She goes to school daily.", "She going to school daily.", "She is go to school daily."],
+          "answer": 1,
+          "explain": "Third person singular (she/he/it) takes -s in the present simple: goes."
+        },
+        {
+          "id": "q2",
+          "prompt": "Which sentence describes something happening right now?",
+          "options": ["I drink coffee every morning.", "I am drinking coffee right now.", "I drank coffee.", "I will drink coffee."],
+          "answer": 1,
+          "explain": "The present continuous (am/is/are + -ing) is used for actions in progress."
+        },
+        {
+          "id": "q3",
+          "prompt": "Choose the correct question.",
+          "options": ["Do you like spicy food?", "Are you like spicy food?", "Does you like spicy food?", "You like spicy food?"],
+          "answer": 0,
+          "explain": "Use do/does for present simple questions: 'Do you like...', 'Does she like...'."
+        }
+      ],
+      "cards": [
+        { "front": "Present simple", "back": "Habits & facts: I work from home" },
+        { "front": "Third person -s", "back": "She goes · He likes · It works" }
+      ]
+    },
+    {
+      "id": "bepergian",
+      "title": "Clear Writing & Directions",
+      "summary": "Good English at work is mostly short sentences and concrete requests.",
+      "points": [
+        "Prefer short, concrete sentences: 'I'll send the summary by 3 pm.'",
+        "Give directions step by step: 'Go straight, then turn left at the lights.'",
+        "Ask for repetition politely: 'Could you repeat that, please?'",
+        "End emails with a clear next step so nobody has to guess."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Which email opening suits a colleague you know well?",
+          "options": ["To whom it may concern,", "Hi Rina,", "Dear Sir/Madam,", "Yours faithfully,"],
+          "answer": 1,
+          "explain": "'Hi <name>' is relaxed yet professional. 'Dear Sir/Madam' is for formal letters with no name."
+        },
+        {
+          "id": "q2",
+          "prompt": "Which sentence is clearest?",
+          "options": [
+            "I'll send the summary by 3 pm.",
+            "Regarding the summary, it may be possible that it will perhaps be sent at some point later.",
+            "The summary, I think, maybe.",
+            "It is what it is about the summary."
+          ],
+          "answer": 0,
+          "explain": "Short and concrete beats long and vague. State the action and the time."
+        },
+        {
+          "id": "q3",
+          "prompt": "'Go straight, then turn left' means...",
+          "options": ["Turn left, then go straight", "Keep going straight, then turn left", "Turn around", "Turn right twice"],
+          "answer": 1,
+          "explain": "Instructions are read in order: first go straight, then turn left."
+        }
+      ],
+      "cards": [
+        { "front": "Ask for directions", "back": "Excuse me, how do I get to the station?" },
+        { "front": "Clear email", "back": "Short sentence + concrete next step" }
+      ]
+    }
+  ]
+}

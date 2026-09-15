@@ -1,0 +1,193 @@
+{
+  "id": "nusantara",
+  "title": "Indonesian Knowledge",
+  "description": "Get to know Indonesia: geography, a short history, its diversity, and everyday public etiquette.",
+  "emoji": "🏝️",
+  "level": "pemula",
+  "minutes": 20,
+  "tags": ["indonesia", "culture", "students", "general knowledge"],
+  "stations": [
+    {
+      "id": "geografi",
+      "title": "Geography & Nature",
+      "summary": "Why Indonesia is fertile, earthquake-prone, and spans three time zones at once — it is all about position.",
+      "points": [
+        "Indonesia is the world's largest archipelago, with more than 17,000 islands.",
+        "The five largest islands: Sumatra, Java, Kalimantan, Sulawesi, and Papua.",
+        "Straddled by the equator → a tropical climate with two seasons: dry and rainy.",
+        "On the Pacific Ring of Fire → many volcanoes, fertile soil, but also earthquake risk."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "How many time zones does Indonesia have?",
+          "options": ["1", "2", "3", "5"],
+          "answer": 2,
+          "explain": "Three: WIB (UTC+7), WITA (UTC+8), and WIT (UTC+9)."
+        },
+        {
+          "id": "q2",
+          "prompt": "When it is 12:00 in Jakarta (WIB), the time in Papua (WIT) is...",
+          "options": ["10:00", "12:00", "13:00", "14:00"],
+          "answer": 3,
+          "explain": "WIT is UTC+9, two hours ahead of WIB at UTC+7."
+        },
+        {
+          "id": "q3",
+          "prompt": "Being on the Pacific Ring of Fire means Indonesia has...",
+          "options": [
+            "No earthquakes at all",
+            "Many volcanoes & earthquake risk, but fertile soils",
+            "Snow every year",
+            "No mountains whatsoever"
+          ],
+          "answer": 1,
+          "explain": "Tectonic plate boundaries create volcanoes and quakes, and volcanic soils are very fertile."
+        }
+      ],
+      "cards": [
+        { "front": "Three time zones", "back": "WIB (UTC+7) · WITA (UTC+8) · WIT (UTC+9)" },
+        { "front": "Ring of Fire", "back": "Volcanoes & quakes, but fertile soil" }
+      ]
+    },
+    {
+      "id": "sejarah",
+      "title": "A Short History",
+      "summary": "A handful of dates shaped modern Indonesia — the ones that come up most in daily life.",
+      "points": [
+        "17 August 1945: the Proclamation of Independence read by Sukarno–Hatta in Jakarta.",
+        "28 October 1928: the Youth Pledge — one homeland, one nation, one language: Indonesian.",
+        "The national flag is the red-and-white Merah Putih. The anthem Indonesia Raya was composed by W. R. Supratman.",
+        "Independence Day is marked every 17 August with flag ceremonies across the country."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Indonesia's independence was proclaimed on...",
+          "options": ["17 August 1945", "28 October 1928", "1 June 1945", "20 May 1908"],
+          "answer": 0,
+          "explain": "17 August is celebrated as the country's Independence Day."
+        },
+        {
+          "id": "q2",
+          "prompt": "The Youth Pledge (28 October 1928) declared one unifying language, namely...",
+          "options": ["Javanese", "Indonesian", "Dutch", "Market Malay"],
+          "answer": 1,
+          "explain": "The pledge united the archipelago around one homeland, one nation, and Indonesian as the language of unity."
+        },
+        {
+          "id": "q3",
+          "prompt": "Who composed the national anthem Indonesia Raya?",
+          "options": ["Ismail Marzuki", "W. R. Supratman", "Ki Hajar Dewantara", "R. A. Kartini"],
+          "answer": 1,
+          "explain": "Wage Rudolf Supratman introduced Indonesia Raya at the Second Youth Congress in 1928."
+        }
+      ],
+      "cards": [
+        { "front": "17 August 1945", "back": "Proclamation of Indonesian Independence" },
+        { "front": "28 October 1928", "back": "Youth Pledge: one homeland, nation, language" }
+      ]
+    },
+    {
+      "id": "kebhinekaan",
+      "title": "Unity in Diversity",
+      "summary": "Hundreds of ethnic groups, languages, and faiths are daily reality here — not something to fear.",
+      "points": [
+        "The national motto is Bhinneka Tunggal Ika — unity in diversity, literally 'different, yet still one'.",
+        "It comes from the Sutasoma text written by Mpu Tantular in the Majapahit era.",
+        "Pancasila is the state philosophy with five principles; the first is belief in the One Supreme God.",
+        "There are hundreds of ethnic groups and more than 700 local languages; Indonesian bridges them all."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "The motto 'Bhinneka Tunggal Ika' means...",
+          "options": [
+            "United we stand, divided we fall",
+            "Different, yet still one",
+            "One nation, one language, one state",
+            "Work hard towards prosperity"
+          ],
+          "answer": 1,
+          "explain": "The phrase from the Sutasoma text describes an archipelago that stays united through all its differences."
+        },
+        {
+          "id": "q2",
+          "prompt": "How many principles does Pancasila have?",
+          "options": ["3", "4", "5", "7"],
+          "answer": 2,
+          "explain": "Pancasila has five principles, from belief in the One Supreme God to social justice for all Indonesians."
+        },
+        {
+          "id": "q3",
+          "prompt": "An everyday example of gotong royong (communal cooperation) is...",
+          "options": [
+            "Neighbours cleaning the drainage ditch together",
+            "Doing every single task alone",
+            "Refusing help from anyone",
+            "Waiting for the workers without lifting a finger"
+          ],
+          "answer": 0,
+          "explain": "Gotong royong means working together for the common good — a signature of Indonesian community life."
+        }
+      ],
+      "cards": [
+        { "front": "Bhinneka Tunggal Ika", "back": "Unity in diversity (from the Sutasoma text)" },
+        { "front": "Pancasila", "back": "The state philosophy, five principles" }
+      ]
+    },
+    {
+      "id": "adab-publik",
+      "title": "Public Etiquette",
+      "summary": "Public space belongs to everyone. Small courtesies make it comfortable for all.",
+      "points": [
+        "Queueing is the simplest form of fairness: first come, first served.",
+        "Put rubbish in a bin; carry it home if there is no bin around.",
+        "Follow traffic rules: wear a helmet, buckle up, and obey signs and traffic lights.",
+        "Respect differences: no insults, no hate speech, and keep your voice down in shared spaces."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "At a busy counter, the right behaviour is to...",
+          "options": [
+            "Cut in because you are in a hurry",
+            "Queue in order of arrival",
+            "Ask someone else to queue for you",
+            "Push in while apologising"
+          ],
+          "answer": 1,
+          "explain": "Queueing keeps things fair for everyone, especially those who arrived earlier."
+        },
+        {
+          "id": "q2",
+          "prompt": "The small habit that most helps keep shared spaces clean is...",
+          "options": [
+            "Throwing rubbish into the gutter",
+            "Binning rubbish and separating what can be recycled",
+            "Piling rubbish in front of the house",
+            "Burning plastic waste"
+          ],
+          "answer": 1,
+          "explain": "Unmanaged waste pollutes the environment; sorting makes recycling possible."
+        },
+        {
+          "id": "q3",
+          "prompt": "Which behaviour shows proper road conduct?",
+          "options": [
+            "Wearing a helmet and stopping at red lights",
+            "Overtaking on the left without looking",
+            "Riding against traffic to arrive faster",
+            "Using your phone while driving"
+          ],
+          "answer": 0,
+          "explain": "Helmets and seat belts save lives; signs and lights keep everyone moving safely."
+        }
+      ],
+      "cards": [
+        { "front": "Queueing", "back": "The simplest form of fairness" },
+        { "front": "Road conduct", "back": "Helmet · seat belt · obey signs & lights" }
+      ]
+    }
+  ]
+}

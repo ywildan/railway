@@ -1,0 +1,208 @@
+{
+  "id": "komputer",
+  "title": "Computer & Internet Basics",
+  "description": "Everyday digital skills: knowing your hardware, keeping files tidy, understanding the internet, and using AI safely.",
+  "emoji": "💻",
+  "level": "pemula",
+  "minutes": 25,
+  "tags": ["computer", "technology", "internet", "all ages"],
+  "stations": [
+    {
+      "id": "perangkat",
+      "title": "Hardware & Software",
+      "summary": "Hardware is what you can touch. Software you cannot touch — but it controls everything.",
+      "points": [
+        "Hardware: processor (the brain), RAM (temporary desk), storage (the archive), screen and keyboard.",
+        "Software: the operating system (Windows/macOS/Linux/Android) plus the apps on top of it.",
+        "RAM is cleared when the computer is switched off; storage (SSD/HDD) keeps your data.",
+        "Restarting fixes many problems because it clears RAM and starts processes fresh."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Which of these is software?",
+          "options": ["Keyboard", "Operating system", "Processor", "Power cable"],
+          "answer": 1,
+          "explain": "An operating system is a program. Keyboards, processors, and cables are hardware."
+        },
+        {
+          "id": "q2",
+          "prompt": "Data held in RAM will...",
+          "options": [
+            "Stay there forever",
+            "Disappear when the computer is switched off",
+            "Move to the screen",
+            "Turn into hardware"
+          ],
+          "answer": 1,
+          "explain": "RAM is volatile. To keep data, write it to an SSD/HDD or save it in the cloud."
+        },
+        {
+          "id": "q3",
+          "prompt": "From fastest to longest-term storage, the correct order is...",
+          "options": [
+            "SSD → RAM → Processor",
+            "Processor → RAM → SSD",
+            "RAM → SSD → Processor",
+            "All the same speed"
+          ],
+          "answer": 1,
+          "explain": "The processor is fastest, RAM sits below it, and SSD/HDD is much slower but keeps data."
+        }
+      ],
+      "cards": [
+        { "front": "Hardware", "back": "Touchable: processor, RAM, SSD, keyboard" },
+        { "front": "RAM vs SSD", "back": "RAM is temporary (cleared on shutdown) · SSD is permanent" }
+      ]
+    },
+    {
+      "id": "berkas",
+      "title": "Files & Backups",
+      "summary": "If it has no backup, it is only a matter of time before it is lost.",
+      "points": [
+        "Folders are structure: Home → Documents → 2026 → Reports. Tidy from the start is easier.",
+        "Extensions tell you the type: .docx (document), .xlsx (spreadsheet), .pdf, .jpg, .mp4.",
+        "The 3-2-1 backup rule: 3 copies, 2 different media, 1 copy off-site (such as the cloud).",
+        "A good file name leads with the date: 2026-03-14-sales-report.xlsx."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "The 3-2-1 backup rule means...",
+          "options": [
+            "3 computers, 2 monitors, 1 printer",
+            "3 copies, 2 different media, 1 copy off-site",
+            "3 folders, 2 files, 1 app",
+            "3 hours of backup, twice a day, once a week"
+          ],
+          "answer": 1,
+          "explain": "So that if one medium fails or one place is hit by disaster, the data survives."
+        },
+        {
+          "id": "q2",
+          "prompt": "A file named 'report.pdf' most likely contains...",
+          "options": ["A photo", "A print-ready document", "A video", "A song"],
+          "answer": 1,
+          "explain": ".pdf is the Portable Document Format, used so documents look the same on any device."
+        },
+        {
+          "id": "q3",
+          "prompt": "Which file name is easiest to find again later?",
+          "options": [
+            "asdfgh.docx",
+            "2026-03-14-sales-report.xlsx",
+            "final final really final (2).docx",
+            "Document1.docx"
+          ],
+          "answer": 1,
+          "explain": "A leading date sorts files automatically; keywords explain the contents."
+        }
+      ],
+      "cards": [
+        { "front": "3-2-1 backup", "back": "3 copies · 2 media · 1 off-site" },
+        { "front": "Good file name", "back": "YYYY-MM-DD + keywords" }
+      ]
+    },
+    {
+      "id": "internet",
+      "title": "How the Internet Works",
+      "summary": "At heart the internet is three things: addresses, routes, and rules for moving data.",
+      "points": [
+        "An IP address is a device's address on the network; DNS is the phonebook that turns a site name into an IP.",
+        "Bandwidth is the width of the road (how much data at once); latency is the travel time (how fast it responds).",
+        "Wi-Fi is only the way you join the local network; 'no internet' is different from 'weak Wi-Fi'.",
+        "HTTPS (the padlock) encrypts the route — it does not prove the site is honest."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "The job of DNS is to...",
+          "options": [
+            "Make the processor faster",
+            "Translate a site name into an IP address",
+            "Store files on your computer",
+            "Shrink photo sizes"
+          ],
+          "answer": 1,
+          "explain": "DNS is the internet's phonebook: you type 'example.com' and DNS finds its IP address."
+        },
+        {
+          "id": "q2",
+          "prompt": "A video call keeps stuttering even though download speed is high. The likely problem is...",
+          "options": ["Latency or jitter", "Screen size", "Keyboard type", "Cable colour"],
+          "answer": 0,
+          "explain": "Live calls are far more sensitive to latency and jitter than to raw bandwidth."
+        },
+        {
+          "id": "q3",
+          "prompt": "The padlock icon (HTTPS) in your browser means...",
+          "options": [
+            "The site is guaranteed honest",
+            "The route between browser and site is encrypted",
+            "The site belongs to a government",
+            "The site has no adverts"
+          ],
+          "answer": 1,
+          "explain": "HTTPS only secures the path. Fraudulent sites can and do use HTTPS too."
+        }
+      ],
+      "cards": [
+        { "front": "DNS", "back": "The internet's phonebook: name → IP address" },
+        { "front": "HTTPS", "back": "An encrypted route, not a promise of honesty" }
+      ]
+    },
+    {
+      "id": "ai",
+      "title": "AI Basics",
+      "summary": "AI is a great helper, but it does not know things — it predicts patterns. Treat it like an assistant you must check.",
+      "points": [
+        "A language model (LLM) works by predicting the next word from patterns in its training data.",
+        "Hallucination: an answer that sounds confident but is wrong. Always check important facts.",
+        "Never paste secrets: passwords, sensitive personal data, confidential work documents.",
+        "Use AI for drafts, explanations, and practice — the final decision stays with you."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "The right way to treat an AI answer on something important (medicine, law, money) is...",
+          "options": [
+            "Use it immediately without checking",
+            "Treat it as a draft, then verify against trusted sources",
+            "Forward it to a group chat",
+            "Delete it without reading"
+          ],
+          "answer": 1,
+          "explain": "AI can be confidently wrong. Verify with official sources before deciding."
+        },
+        {
+          "id": "q2",
+          "prompt": "Which should you never paste into a public AI tool?",
+          "options": [
+            "A cooking recipe",
+            "Passwords and personal identity numbers",
+            "A shopping list",
+            "Cat name ideas"
+          ],
+          "answer": 1,
+          "explain": "What you send to a public service may be stored on their systems. Keep secrets secret."
+        },
+        {
+          "id": "q3",
+          "prompt": "In simple terms, a large language model works by...",
+          "options": [
+            "Searching the internet every time you ask",
+            "Predicting the next words from patterns in its training data",
+            "Copying an answer out of one book",
+            "Contacting a human behind the scenes"
+          ],
+          "answer": 1,
+          "explain": "An LLM does not look up facts by default — it produces the most likely text given its patterns."
+        }
+      ],
+      "cards": [
+        { "front": "AI hallucination", "back": "Confident but wrong → verify it" },
+        { "front": "Never share", "back": "Passwords, ID numbers, confidential documents" }
+      ]
+    }
+  ]
+}

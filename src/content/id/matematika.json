@@ -1,0 +1,168 @@
+{
+  "id": "matematika",
+  "title": "Matematika Sehari-hari",
+  "description": "Matematika yang benar-benar dipakai: persen, diskon & pajak, satuan, serta perbandingan dan skala.",
+  "emoji": "🧮",
+  "level": "pemula",
+  "minutes": 25,
+  "tags": ["matematika", "belanja", "pelajar", "umkm"],
+  "stations": [
+    {
+      "id": "persen",
+      "title": "Persen",
+      "summary": "Persen berarti 'per seratus' — alat paling sering dipakai saat belanja dan membaca berita.",
+      "points": [
+        "x% = x/100. Jadi 25% = 25/100 = 0,25.",
+        "Cara cepat: 10% = bagi 10; 1% = bagi 100; 25% = seperempat; 50% = setengah.",
+        "'Naik 20%' artinya dikali 1,2. 'Turun 20%' artinya dikali 0,8.",
+        "Persen selalu merujuk ke sesuatu: 5% dari gaji ≠ 5% dari harga mobil."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Berapa 15% dari Rp200.000?",
+          "options": ["Rp15.000", "Rp20.000", "Rp30.000", "Rp45.000"],
+          "answer": 2,
+          "explain": "10% dari Rp200.000 = Rp20.000, 5% = Rp10.000. Total 15% = Rp30.000."
+        },
+        {
+          "id": "q2",
+          "prompt": "Harga Rp250.000 didiskon 20%. Harga bayarnya...",
+          "options": ["Rp50.000", "Rp200.000", "Rp230.000", "Rp220.000"],
+          "answer": 1,
+          "explain": "20% × Rp250.000 = Rp50.000 potongan. Rp250.000 − Rp50.000 = Rp200.000."
+        },
+        {
+          "id": "q3",
+          "prompt": "Harga sebuah barang naik dari Rp80.000 menjadi Rp100.000. Berapa persen kenaikannya?",
+          "options": ["20%", "25%", "80%", "125%"],
+          "answer": 1,
+          "explain": "Naik Rp20.000 dari harga awal Rp80.000 → 20.000/80.000 = 0,25 = 25%. Selalu bagi dengan nilai awal."
+        }
+      ],
+      "cards": [
+        { "front": "x%", "back": "x per 100 → x/100 (25% = 0,25)" },
+        { "front": "Naik 20%", "back": "Kalikan 1,2 · Turun 20% kalikan 0,8" }
+      ]
+    },
+    {
+      "id": "belanja",
+      "title": "Diskon & Pajak",
+      "summary": "Harga akhir = harga setelah diskon, lalu ditambah pajak. Urutannya penting.",
+      "points": [
+        "Diskon bertahap tidak dijumlahkan: 50% lalu 20% bukan 70%.",
+        "PPN di Indonesia saat ini 11% (dihitung dari harga sebelum pajak).",
+        "Harga belum termasuk pajak → kalikan 1,11. Sudah termasuk pajak → bagi 1,11.",
+        "Bandingkan selalu harga per satuan (per gram/liter), bukan harga kemasan."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Baju Rp200.000 didiskon 25%. Harga setelah diskon?",
+          "options": ["Rp50.000", "Rp150.000", "Rp175.000", "Rp225.000"],
+          "answer": 1,
+          "explain": "25% × Rp200.000 = Rp50.000. Harga bayar = Rp200.000 − Rp50.000 = Rp150.000."
+        },
+        {
+          "id": "q2",
+          "prompt": "Harga barang Rp300.000 dikenakan PPN 11%. Total yang dibayar?",
+          "options": ["Rp311.000", "Rp330.000", "Rp333.000", "Rp303.000"],
+          "answer": 2,
+          "explain": "PPN = 11% × Rp300.000 = Rp33.000. Total = Rp333.000."
+        },
+        {
+          "id": "q3",
+          "prompt": "Diskon bertahap: Rp400.000 didiskon 50%, lalu didiskon lagi 20% dari harga baru. Harga akhir?",
+          "options": ["Rp120.000", "Rp160.000", "Rp200.000", "Rp0 (gratis)"],
+          "answer": 1,
+          "explain": "Setelah 50% → Rp200.000. Lalu 20% × Rp200.000 = Rp40.000. Harga akhir Rp160.000 (bukan 70% dari Rp400.000 = Rp120.000)."
+        }
+      ],
+      "cards": [
+        { "front": "Diskon bertahap", "back": "Dihitung berurutan, tidak dijumlahkan" },
+        { "front": "PPN 11%", "back": "Belum pajak ×1,11 · Sudah termasuk pajak ÷1,11" }
+      ]
+    },
+    {
+      "id": "satuan",
+      "title": "Satuan & Konversi",
+      "summary": "Salah satuan bisa mahal harganya — dari resep masakan sampai proyek bangunan.",
+      "points": [
+        "Tangga satuan: km → hm → dam → m → dm → cm → mm (tiap turun satu anak tangga ×10).",
+        "1 kg = 1.000 g; 1 liter = 1.000 ml; 1 jam = 3.600 detik.",
+        "Konversi kecepatan: km/jam → m/s dibagi 3,6 (sebaliknya dikali 3,6).",
+        "Luas pakai satuan kuadrat (m²), volume pakai satuan kubik (m³ atau liter)."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "2,5 kilometer sama dengan...",
+          "options": ["25 m", "250 m", "2.500 m", "25.000 m"],
+          "answer": 2,
+          "explain": "1 km = 1.000 m, jadi 2,5 km = 2.500 m."
+        },
+        {
+          "id": "q2",
+          "prompt": "Mobil melaju 36 km/jam. Berapa dalam m/s?",
+          "options": ["3,6 m/s", "10 m/s", "36 m/s", "129,6 m/s"],
+          "answer": 1,
+          "explain": "36 ÷ 3,6 = 10 m/s. Ingat: km/jam ke m/s dibagi 3,6."
+        },
+        {
+          "id": "q3",
+          "prompt": "Resep butuh 0,75 kg tepung. Berapa gram?",
+          "options": ["75 g", "750 g", "7.500 g", "7,5 g"],
+          "answer": 1,
+          "explain": "1 kg = 1.000 g, jadi 0,75 kg = 750 g."
+        }
+      ],
+      "cards": [
+        { "front": "km/jam → m/s", "back": "Bagi 3,6 · m/s → km/jam kali 3,6" },
+        { "front": "1 liter", "back": "1.000 ml = 1 dm³" }
+      ]
+    },
+    {
+      "id": "perbandingan",
+      "title": "Perbandingan & Skala",
+      "summary": "Perbandingan membantu memilah: mana yang lebih murah, lebih cepat, atau lebih dekat.",
+      "points": [
+        "Rasio dibaca berurutan: 3 : 2 artinya bagian pertama 3, bagian kedua 2.",
+        "Skala peta 1 : 100.000 → 1 cm di peta = 100.000 cm = 1 km di dunia nyata.",
+        "Kecepatan = jarak ÷ waktu. Waktu = jarak ÷ kecepatan.",
+        "Untuk membandingkan harga, samakan dulu satuannya (misal harga per 100 gram)."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Peta berskala 1 : 200.000. Jarak 4 cm di peta berapa kilometer di lapangan?",
+          "options": ["2 km", "8 km", "20 km", "80 km"],
+          "answer": 1,
+          "explain": "4 cm × 200.000 = 800.000 cm = 8.000 m = 8 km."
+        },
+        {
+          "id": "q2",
+          "prompt": "Mana yang lebih murah per kilogram?",
+          "options": [
+            "500 gram seharga Rp20.000",
+            "1 kg seharga Rp38.000",
+            "Keduanya sama",
+            "Tidak bisa dibandingkan"
+          ],
+          "answer": 1,
+          "explain": "500 g @Rp20.000 = Rp40.000/kg, lebih mahal daripada Rp38.000/kg."
+        },
+        {
+          "id": "q3",
+          "prompt": "Perjalanan 120 km ditempuh 2 jam. Berapa kecepatan rata-ratanya?",
+          "options": ["40 km/jam", "50 km/jam", "60 km/jam", "240 km/jam"],
+          "answer": 2,
+          "explain": "Kecepatan = jarak ÷ waktu = 120 km ÷ 2 jam = 60 km/jam."
+        }
+      ],
+      "cards": [
+        { "front": "Skala 1 : 100.000", "back": "1 cm di peta = 1 km di lapangan" },
+        { "front": "Kecepatan", "back": "v = jarak ÷ waktu" }
+      ]
+    }
+  ]
+}

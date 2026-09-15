@@ -1,0 +1,193 @@
+{
+  "id": "nusantara",
+  "title": "Wawasan Nusantara",
+  "description": "Mengenal Indonesia: geografi, sejarah ringkas, kebhinekaan, dan adab di ruang publik.",
+  "emoji": "🏝️",
+  "level": "pemula",
+  "minutes": 20,
+  "tags": ["indonesia", "budaya", "pelajar", "wawasan"],
+  "stations": [
+    {
+      "id": "geografi",
+      "title": "Geografi & Alam",
+      "summary": "Mengapa Indonesia subur, rawan gempa, dan punya tiga waktu sekaligus — semua karena posisinya.",
+      "points": [
+        "Indonesia adalah negara kepulauan terbesar di dunia dengan lebih dari 17.000 pulau.",
+        "Lima pulau besar: Sumatra, Jawa, Kalimantan, Sulawesi, dan Papua.",
+        "Dilintasi garis khatulistiwa → beriklim tropis dengan dua musim: kemarau dan hujan.",
+        "Terletak di jalur Cincin Api Pasifik → banyak gunung berapi, tanah subur, tapi juga rawan gempa."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Indonesia memiliki berapa zona waktu?",
+          "options": ["1", "2", "3", "5"],
+          "answer": 2,
+          "explain": "Tiga: WIB (UTC+7), WITA (UTC+8), dan WIT (UTC+9)."
+        },
+        {
+          "id": "q2",
+          "prompt": "Saat di Jakarta (WIB) pukul 12.00, di wilayah WIT (Papua) pukul...",
+          "options": ["10.00", "12.00", "13.00", "14.00"],
+          "answer": 3,
+          "explain": "WIT = UTC+9, dua jam lebih cepat dari WIB (UTC+7)."
+        },
+        {
+          "id": "q3",
+          "prompt": "Posisi Indonesia di jalur Cincin Api Pasifik menyebabkan...",
+          "options": [
+            "Tidak pernah terjadi gempa",
+            "Banyak gunung berapi & rawan gempa, tetapi tanahnya subur",
+            "Selalu bersalju setiap tahun",
+            "Tidak memiliki gunung sama sekali"
+          ],
+          "answer": 1,
+          "explain": "Pertemuan lempeng tektonik menghasilkan gunung api dan gempa, sekaligus tanah vulkanik yang subur."
+        }
+      ],
+      "cards": [
+        { "front": "Tiga zona waktu", "back": "WIB (UTC+7) · WITA (UTC+8) · WIT (UTC+9)" },
+        { "front": "Cincin Api Pasifik", "back": "Banyak gunung api & gempa, tanah subur" }
+      ]
+    },
+    {
+      "id": "sejarah",
+      "title": "Sejarah Ringkas",
+      "summary": "Beberapa tanggal yang membentuk Indonesia modern — cukup yang paling sering dipakai sehari-hari.",
+      "points": [
+        "17 Agustus 1945: Proklamasi Kemerdekaan dibacakan Soekarno–Hatta di Jakarta.",
+        "28 Oktober 1928: Sumpah Pemuda — satu tanah air, satu bangsa, satu bahasa: Bahasa Indonesia.",
+        "Bendera negara: Merah Putih. Lagu kebangsaan: Indonesia Raya ciptaan W. R. Supratman.",
+        "Hari Kemerdekaan diperingati setiap 17 Agustus dengan upacara bendera di seluruh wilayah."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Kemerdekaan Indonesia diproklamasikan pada...",
+          "options": ["17 Agustus 1945", "28 Oktober 1928", "1 Juni 1945", "20 Mei 1908"],
+          "answer": 0,
+          "explain": "Tanggal 17 Agustus 1945 diperingati sebagai Hari Kemerdekaan RI."
+        },
+        {
+          "id": "q2",
+          "prompt": "Sumpah Pemuda (28 Oktober 1928) menegaskan salah satunya: berbahasa satu, yaitu...",
+          "options": ["Bahasa Jawa", "Bahasa Indonesia", "Bahasa Belanda", "Bahasa Melayu Pasar"],
+          "answer": 1,
+          "explain": "Sumpah Pemuda mengikrarkan satu tanah air, satu bangsa, dan menjunjung bahasa persatuan: Bahasa Indonesia."
+        },
+        {
+          "id": "q3",
+          "prompt": "Pencipta lagu kebangsaan Indonesia Raya adalah...",
+          "options": ["Ismail Marzuki", "W. R. Supratman", "Ki Hajar Dewantara", "R. A. Kartini"],
+          "answer": 1,
+          "explain": "Wage Rudolf Supratman memperkenalkan Indonesia Raya pada Kongres Pemuda II tahun 1928."
+        }
+      ],
+      "cards": [
+        { "front": "17 Agustus 1945", "back": "Proklamasi Kemerdekaan Indonesia" },
+        { "front": "28 Oktober 1928", "back": "Sumpah Pemuda: satu tanah air, bangsa, bahasa" }
+      ]
+    },
+    {
+      "id": "kebhinekaan",
+      "title": "Kebhinekaan",
+      "summary": "Ragam suku, bahasa, dan agama adalah kenyataan sehari-hari — bukan sesuatu yang perlu ditakuti.",
+      "points": [
+        "Semboyan negara: Bhinneka Tunggal Ika — berbeda-beda tetapi tetap satu jua.",
+        "Semboyan ini berasal dari Kitab Sutasoma karya Mpu Tantular pada masa Majapahit.",
+        "Pancasila adalah dasar negara dengan lima sila; sila pertama: Ketuhanan Yang Maha Esa.",
+        "Ada ratusan suku bangsa dan lebih dari 700 bahasa daerah; Bahasa Indonesia menjembatani semuanya."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Arti semboyan 'Bhinneka Tunggal Ika' adalah...",
+          "options": [
+            "Bersatu kita teguh, bercerai kita runtuh",
+            "Berbeda-beda tetapi tetap satu jua",
+            "Satu bangsa, satu bahasa, satu negara",
+            "Bekerja keras mencapai kemakmuran"
+          ],
+          "answer": 1,
+          "explain": "Kalimat dari Kitab Sutasoma ini menggambarkan keragaman Nusantara yang tetap satu."
+        },
+        {
+          "id": "q2",
+          "prompt": "Jumlah sila dalam Pancasila adalah...",
+          "options": ["3", "4", "5", "7"],
+          "answer": 2,
+          "explain": "Pancasila terdiri dari lima sila; sila pertama Ketuhanan Yang Maha Esa, sila kelima keadilan sosial bagi seluruh rakyat Indonesia."
+        },
+        {
+          "id": "q3",
+          "prompt": "Contoh penerapan nilai gotong royong di lingkungan sekitar adalah...",
+          "options": [
+            "Kerja bakti membersihkan selokan bersama tetangga",
+            "Menyelesaikan semua pekerjaan sendirian",
+            "Menolak bantuan orang lain",
+            "Menunggu petugas tanpa melakukan apa pun"
+          ],
+          "answer": 0,
+          "explain": "Gotong royong adalah kerja bersama untuk kepentingan umum — ciri khas kehidupan bermasyarakat di Indonesia."
+        }
+      ],
+      "cards": [
+        { "front": "Bhinneka Tunggal Ika", "back": "Berbeda-beda tetapi tetap satu jua (Kitab Sutasoma)" },
+        { "front": "Pancasila", "back": "Dasar negara dengan lima sila" }
+      ]
+    },
+    {
+      "id": "adab-publik",
+      "title": "Adab di Ruang Publik",
+      "summary": "Ruang publik milik bersama. Adab kecil membuatnya nyaman untuk semua orang.",
+      "points": [
+        "Antre adalah bentuk paling sederhana dari adil — siapa datang lebih dulu, dilayani lebih dulu.",
+        "Buang sampah pada tempatnya; bawa kembali sampahmu bila tidak ada tempat sampah.",
+        "Tertib berlalu lintas: pakai helm, sabuk pengaman, dan patuhi rambu serta lampu lalu lintas.",
+        "Hargai perbedaan: hindari ejekan, ujaran kebencian, dan suara keras di fasilitas umum."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Di loket yang sedang ramai, sikap yang tepat adalah...",
+          "options": [
+            "Menyela ke depan karena buru-buru",
+            "Mengantre sesuai kedatangan",
+            "Meminta orang lain mengantrekan",
+            "Menyerobot sambil minta maaf"
+          ],
+          "answer": 1,
+          "explain": "Antre menjaga keadilan bagi semua, termasuk mereka yang datang lebih dulu."
+        },
+        {
+          "id": "q2",
+          "prompt": "Hal kecil yang paling berdampak menjaga kebersihan bersama adalah...",
+          "options": [
+            "Membuang sampah di selokan",
+            "Membuang sampah pada tempatnya dan memilah yang bisa didaur ulang",
+            "Menumpuk sampah di depan rumah",
+            "Membakar sampah plastik"
+          ],
+          "answer": 1,
+          "explain": "Sampah yang tidak dikelola mencemari lingkungan; memilah memudahkan daur ulang."
+        },
+        {
+          "id": "q3",
+          "prompt": "Sikap yang menunjukkan tertib berlalu lintas adalah...",
+          "options": [
+            "Menggunakan helm dan mematuhi lampu merah",
+            "Menyalip dari kiri tanpa melihat",
+            "Berkendara melawan arus agar cepat",
+            "Menggunakan ponsel saat mengemudi"
+          ],
+          "answer": 0,
+          "explain": "Helm dan sabuk pengaman menyelamatkan nyawa; rambu dan lampu lalu lintas menjaga ketertiban bersama."
+        }
+      ],
+      "cards": [
+        { "front": "Antre", "back": "Bentuk paling sederhana dari keadilan" },
+        { "front": "Tertib lalu lintas", "back": "Helm · sabuk pengaman · patuhi rambu" }
+      ]
+    }
+  ]
+}
