@@ -1,0 +1,183 @@
+{
+  "id": "logika",
+  "title": "Logic & Critical Thinking",
+  "description": "Separate fact from opinion, spot broken arguments, read risk properly, and make clearer decisions.",
+  "emoji": "🧠",
+  "level": "menengah",
+  "minutes": 25,
+  "tags": ["critical thinking", "students", "work", "media"],
+  "stations": [
+    {
+      "id": "fakta-opini",
+      "title": "Fact vs Opinion",
+      "summary": "Facts can be tested. Opinions can be debated. Many arguments collapse when the two are swapped.",
+      "points": [
+        "A fact can be shown true or false with evidence ('Water boils at 100°C at 1 atm').",
+        "An opinion is a judgement or preference ('Nasi goreng is nicer than soto').",
+        "A claim demands evidence. The bigger the claim, the stronger the evidence needed.",
+        "Ask: 'What is the evidence?' and 'How could this be shown false?'"
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Which of these is a fact?",
+          "options": [
+            "Nasi goreng is better than mie goreng",
+            "Water boils at 100°C at 1 atmosphere",
+            "Blue is the most beautiful colour",
+            "That film is boring"
+          ],
+          "answer": 1,
+          "explain": "It can be measured with instruments and comes out the same for everyone."
+        },
+        {
+          "id": "q2",
+          "prompt": "'In my view, this rainy season is more annoying.' This is...",
+          "options": ["A measured fact", "An opinion", "A scientific formula", "Statistical data"],
+          "answer": 1,
+          "explain": "It contains a subjective judgement ('annoying', 'in my view'). Valid as an opinion, not a fact."
+        },
+        {
+          "id": "q3",
+          "prompt": "The best way to check a claim is to...",
+          "options": [
+            "Find whoever shouts it loudest",
+            "Look for evidence and possible refutations",
+            "Count how many people like it",
+            "Wait until everyone agrees"
+          ],
+          "answer": 1,
+          "explain": "Critical thinking actively asks how a claim could be wrong, rather than only seeking confirmation."
+        }
+      ],
+      "cards": [
+        { "front": "Fact", "back": "Can be tested with evidence" },
+        { "front": "Opinion", "back": "A personal judgement or preference" }
+      ]
+    },
+    {
+      "id": "sesat-pikir",
+      "title": "Common Fallacies",
+      "summary": "A fallacy is an argument that sounds convincing but is logically broken.",
+      "points": [
+        "Ad hominem: attacking the person instead of the argument.",
+        "Bandwagon: 'everyone does it' does not make it right.",
+        "Straw man: twisting the other side's argument so it is easy to knock down.",
+        "False dilemma: pretending there are only two options when there are more."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "'Your idea must be wrong because you are young.' This is...",
+          "options": ["Ad hominem", "Statistics", "A measured fact", "A valid conclusion"],
+          "answer": 0,
+          "explain": "The attack targets the person (age), not the substance of the argument."
+        },
+        {
+          "id": "q2",
+          "prompt": "'Millions of people use it, so it must be safe.' This is...",
+          "options": ["Bandwagon", "A lab result", "A clinical trial", "A legal definition"],
+          "answer": 0,
+          "explain": "Popularity is not evidence of truth or safety (appeal to popularity)."
+        },
+        {
+          "id": "q3",
+          "prompt": "'If we do not ban A, tomorrow disaster Z will surely happen.' This pattern is...",
+          "options": ["Slippery slope", "A definition", "A comparison", "A concrete example"],
+          "answer": 0,
+          "explain": "It chains extreme outcomes together without evidence for each step."
+        }
+      ],
+      "cards": [
+        { "front": "Ad hominem", "back": "Attacks the person, not the argument" },
+        { "front": "False dilemma", "back": "Pretends only two options exist" }
+      ]
+    },
+    {
+      "id": "probabilitas",
+      "title": "Probability & Risk",
+      "summary": "Human brains are built for stories, not percentages — which is why risk is so often misread.",
+      "points": [
+        "Independent events have no memory: five heads in a row still leaves a 50% chance on the sixth toss.",
+        "Small risks repeated become large: 1% a year does not mean safe forever.",
+        "Compare with the base rate: 'cuts the risk by 50%' sounds huge if the starting risk was 2%.",
+        "Absolute risk is more meaningful than relative risk."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "A fair coin lands heads five times in a row. The chance of heads on the sixth toss is...",
+          "options": ["Less than 50%", "Exactly 50%", "More than 50%", "Certain"],
+          "answer": 1,
+          "explain": "Each toss is independent: the coin keeps no memory. Believing otherwise is the gambler's fallacy."
+        },
+        {
+          "id": "q2",
+          "prompt": "A fair six-sided die is rolled. The chance of an even number is...",
+          "options": ["1/6", "1/3", "1/2", "2/3"],
+          "answer": 2,
+          "explain": "Even faces: 2, 4, 6 → three out of six outcomes = 3/6 = 1/2."
+        },
+        {
+          "id": "q3",
+          "prompt": "'This medicine cuts the risk by 50%.' The statement most needs...",
+          "options": [
+            "The colour of the box",
+            "The starting risk (base rate)",
+            "The name of the seller",
+            "The number of testimonials"
+          ],
+          "answer": 1,
+          "explain": "A 50% relative cut from a 2% risk only brings it to 1% — an absolute difference of one point."
+        }
+      ],
+      "cards": [
+        { "front": "Independent events", "back": "No memory: the chance stays the same" },
+        { "front": "Absolute risk", "back": "The real difference, more useful than relative %" }
+      ]
+    },
+    {
+      "id": "keputusan",
+      "title": "Bias & Decisions",
+      "summary": "Nobody is fully objective. Knowing the name of a bias already weakens it.",
+      "points": [
+        "Confirmation bias: only looking for information that supports what you already believe.",
+        "Sunk cost fallacy: continuing because of time or money already spent.",
+        "Anchoring: the first number you hear drags your later judgements towards it.",
+        "Practical antidotes: write the criteria before seeing the options, and ask someone who disagrees."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Only reading news that agrees with you is called...",
+          "options": ["Confirmation bias", "Anchoring", "Randomisation", "Deduction"],
+          "answer": 0,
+          "explain": "Feeds reinforce it too, so deliberately read sources that differ from you."
+        },
+        {
+          "id": "q2",
+          "prompt": "'The film is bad, but the ticket was expensive so I will watch it to the end.' This is...",
+          "options": ["Sunk cost fallacy", "Objective probability", "Deductive logic", "An experiment"],
+          "answer": 0,
+          "explain": "Money already spent cannot return; only future benefit is relevant."
+        },
+        {
+          "id": "q3",
+          "prompt": "The most practical way to reduce bias before choosing is to...",
+          "options": [
+            "Decide as fast as possible",
+            "Write your criteria before looking at the options",
+            "Copy whoever is closest to you",
+            "Wait until you feel 100% certain"
+          ],
+          "answer": 1,
+          "explain": "Fixing criteria early stops your judgement being dragged around by later information."
+        }
+      ],
+      "cards": [
+        { "front": "Confirmation bias", "back": "Seeking only evidence that supports existing beliefs" },
+        { "front": "Sunk cost fallacy", "back": "Continuing because of past cost, not future benefit" }
+      ]
+    }
+  ]
+}

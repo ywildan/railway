@@ -1,0 +1,203 @@
+{
+  "id": "uang",
+  "title": "Literasi Keuangan",
+  "description": "Mengelola uang sehari-hari: anggaran, utang, dana darurat, dan investasi untuk hidup yang lebih tenang.",
+  "emoji": "💰",
+  "level": "pemula",
+  "minutes": 25,
+  "tags": ["keuangan", "keluarga", "umkm", "dewasa"],
+  "stations": [
+    {
+      "id": "anggaran",
+      "title": "Menyusun Anggaran",
+      "summary": "Anggaran bukan penjara, tapi peta. Kamu yang mengatur uang, bukan uang yang mengatur kamu.",
+      "points": [
+        "Panduan 50/30/20: 50% kebutuhan pokok, 30% keinginan, 20% tabungan & cicilan.",
+        "Catat semua pengeluaran selama 30 hari — biasanya ada kebocoran yang mengejutkan.",
+        "Bayar diri sendiri lebih dulu: pindahkan tabungan di awal bulan, bukan dari sisa di akhir bulan.",
+        "Anggaran yang terlalu ketat jarang bertahan; sisakan ruang untuk hal-hal kecil yang bikin senang."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Pendapatan Rp4.000.000/bulan. Menurut panduan 50/30/20, berapa yang sebaiknya untuk kebutuhan pokok?",
+          "options": ["Rp800.000", "Rp1.200.000", "Rp2.000.000", "Rp3.000.000"],
+          "answer": 2,
+          "explain": "50% dari Rp4.000.000 = Rp2.000.000 untuk kebutuhan pokok seperti makan, sewa, listrik, dan transport."
+        },
+        {
+          "id": "q2",
+          "prompt": "Mengapa menabung sebaiknya dilakukan di awal bulan?",
+          "options": [
+            "Karena bunga bank dihitung di awal bulan",
+            "Supaya tabungan tidak habis duluan oleh pengeluaran lain",
+            "Karena di akhir bulan bank tutup",
+            "Agar bisa langsung ditarik lagi"
+          ],
+          "answer": 1,
+          "explain": "Prinsip 'bayar diri sendiri dulu': kalau menunggu sisa, sering kali tidak ada sisa."
+        },
+        {
+          "id": "q3",
+          "prompt": "Langkah pertama yang paling masuk akal sebelum menyusun anggaran adalah...",
+          "options": [
+            "Langsung memotong semua pengeluaran hiburan",
+            "Mencatat pengeluaran aktual selama sebulan",
+            "Meminjam uang untuk menutupi kekurangan",
+            "Membuka rekening baru di banyak bank"
+          ],
+          "answer": 1,
+          "explain": "Tanpa data pengeluaran aktual, anggaran hanya tebakan. Catat dulu, baru potong yang paling boros."
+        }
+      ],
+      "cards": [
+        { "front": "50/30/20", "back": "50% kebutuhan · 30% keinginan · 20% tabungan & cicilan" },
+        { "front": "Bayar diri sendiri dulu", "back": "Tabung di awal bulan, bukan dari sisa akhir bulan" }
+      ]
+    },
+    {
+      "id": "utang-bunga",
+      "title": "Utang & Bunga",
+      "summary": "Utang bisa membantu atau menjerat — bedanya ada pada tujuan, bunga, dan kemampuan bayar.",
+      "points": [
+        "Bedakan utang produktif (modal usaha, pendidikan) dan utang konsumtif (gadget, liburan).",
+        "Bunga berbunga bekerja dua arah: menguntungkan saat menabung, menyiksa saat berutang.",
+        "Cicilan aman umumnya tidak lebih dari 30% penghasilan bulanan.",
+        "Baca total yang dibayar, bukan hanya cicilan per bulan."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Pinjaman Rp10.000.000 dengan bunga 2% per bulan, dibayar 12 bulan. Kira-kira bunga setahunnya...",
+          "options": ["Rp200.000", "Rp1.200.000", "Rp2.400.000", "Rp10.000.000"],
+          "answer": 2,
+          "explain": "2% × Rp10.000.000 = Rp200.000 per bulan. Selama 12 bulan ≈ Rp2.400.000 (perhitungan sederhana, belum memperhitungkan sisa pokok)."
+        },
+        {
+          "id": "q2",
+          "prompt": "Mana yang paling tepat disebut utang produktif?",
+          "options": [
+            "Kartu kredit untuk belanja baju",
+            "Pinjaman untuk modal warung kecil-kecilan",
+            "Cicilan HP terbaru",
+            "Pinjaman untuk biasa makan di restoran"
+          ],
+          "answer": 1,
+          "explain": "Utang produktif menghasilkan nilai atau penghasilan baru, jadi cicilannya bisa tertutup oleh hasil usaha."
+        },
+        {
+          "id": "q3",
+          "prompt": "Batas aman yang umum dipakai untuk total cicilan adalah...",
+          "options": ["10% penghasilan", "30% penghasilan", "60% penghasilan", "Terserah, yang penting bisa bayar minimal"],
+          "answer": 1,
+          "explain": "Di atas ±30% penghasilan, ruang untuk kebutuhan pokok dan darurat biasanya sudah terlalu sempit."
+        }
+      ],
+      "cards": [
+        { "front": "Utang produktif", "back": "Menghasilkan nilai/penghasilan: modal usaha, pendidikan, alat kerja" },
+        { "front": "Batas cicilan aman", "back": "Maksimal ±30% dari penghasilan bulanan" }
+      ]
+    },
+    {
+      "id": "dana-darurat",
+      "title": "Dana Darurat",
+      "summary": "Dana darurat adalah rem pengaman: yang bikin kamu tidak panik saat kejadian tak terduga.",
+      "points": [
+        "Target umum: 3–6 kali pengeluaran bulanan (kalau penghasilan tidak tetap, mendekati 6–12 kali).",
+        "Simpan di tempat yang aman dan mudah dicairkan, bukan di instrumen yang nilainya naik-turun.",
+        "Dana darurat bukan untuk diskon besar-besaran — itu urusan pos keinginan.",
+        "Isi kembali setelah dipakai, sekecil apa pun jumlahnya."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Pengeluaran bulanan Rp3.000.000. Berapa target dana darurat minimal (3 bulan)?",
+          "options": ["Rp3.000.000", "Rp6.000.000", "Rp9.000.000", "Rp18.000.000"],
+          "answer": 2,
+          "explain": "3 × Rp3.000.000 = Rp9.000.000 sebagai lapis pertama."
+        },
+        {
+          "id": "q2",
+          "prompt": "Ciri tempat menyimpan dana darurat yang baik adalah...",
+          "options": [
+            "Return tertinggi meski sulit dicairkan",
+            "Aman, likuid, dan bisa diambil kapan saja",
+            "Terkunci minimal 5 tahun",
+            "Nilainya naik-turun mengikuti pasar"
+          ],
+          "answer": 1,
+          "explain": "Tujuan utama dana darurat adalah bisa dipakai segera saat dibutuhkan, bukan pertumbuhan tertinggi."
+        },
+        {
+          "id": "q3",
+          "prompt": "Manakah yang paling tepat menggunakan dana darurat?",
+          "options": [
+            "Diskon 70% di toko elektronik",
+            "Biaya berobat mendadak",
+            "Liburan akhir tahun",
+            "Beli kendaraan baru"
+          ],
+          "answer": 1,
+          "explain": "Dana darurat untuk kejadian tak terduga yang mendesak, terutama kesehatan dan hilangnya penghasilan."
+        }
+      ],
+      "cards": [
+        { "front": "Target dana darurat", "back": "3–6 kali pengeluaran bulanan (pekerja lepas: 6–12 kali)" },
+        { "front": "Syarat utama", "back": "Aman & mudah dicairkan dalam hitungan jam" }
+      ]
+    },
+    {
+      "id": "investasi",
+      "title": "Investasi & Inflasi",
+      "summary": "Menabung menjaga uang; berinvestasi menjaga daya beli. Keduanya perlu, urutannya yang penting.",
+      "points": [
+        "Inflasi membuat harga naik: uang yang hanya disimpan pelan-pelan kehilangan daya beli.",
+        "Beda imbal hasil selalu datang bersama beda risiko — tidak ada yang tinggi return tapi nol risiko.",
+        "Pahami dulu instrumennya sebelum membeli; kalau tidak paham, itu spekulasi.",
+        "Waspadai janji untung tetap dan besar dalam waktu singkat."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Inflasi 5% setahun artinya...",
+          "options": [
+            "Harga barang naik rata-rata 5% setahun",
+            "Uang kamu bertambah 5% setahun",
+            "Harga barang turun 5% setahun",
+            "Bunga bank pasti 5% setahun"
+          ],
+          "answer": 0,
+          "explain": "Inflasi = kenaikan harga umum. Kalau tabungan berbunga 2% sementara inflasi 5%, daya belimu sebenarnya turun."
+        },
+        {
+          "id": "q2",
+          "prompt": "Tanda bahaya paling jelas dari tawaran investasi adalah...",
+          "options": [
+            "Ada dokumen tertulis",
+            "Menjanjikan untung pasti dan besar dalam waktu singkat",
+            "Menjelaskan risikonya",
+            "Meminta kamu mempelajari produknya dulu"
+          ],
+          "answer": 1,
+          "explain": "Investasi yang legal tidak menjanjikan imbal hasil pasti. Janji 'untung tetap, cepat, besar' adalah pola umum penipuan."
+        },
+        {
+          "id": "q3",
+          "prompt": "Urutan yang paling bijak sebelum mulai berinvestasi adalah...",
+          "options": [
+            "Investasi dulu, dana darurat belakangan",
+            "Dana darurat siap, utang konsumtif beres, lalu investasi",
+            "Langsung masuk ke instrumen berisiko tinggi",
+            "Ikuti saja rekomendasi teman tanpa membaca"
+          ],
+          "answer": 1,
+          "explain": "Fondasi dulu: dana darurat dan utang berbunga tinggi dibereskan, baru investasi sesuai tujuan dan profil risiko."
+        }
+      ],
+      "cards": [
+        { "front": "Inflasi", "back": "Kenaikan harga umum; daya beli uang mengecil dari waktu ke waktu" },
+        { "front": "Return tinggi", "back": "Selalu berpasangan dengan risiko tinggi" }
+      ]
+    }
+  ]
+}

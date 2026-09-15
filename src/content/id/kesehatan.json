@@ -1,0 +1,213 @@
+{
+  "id": "kesehatan",
+  "title": "Kesehatan Sehari-hari",
+  "description": "Menjaga tubuh dengan pengetahuan dasar: gizi, tidur, gerak, dan pertolongan pertama ringan.",
+  "emoji": "🩺",
+  "level": "pemula",
+  "minutes": 20,
+  "tags": ["kesehatan", "keluarga", "rumah tangga"],
+  "stations": [
+    {
+      "id": "gizi",
+      "title": "Gizi Seimbang",
+      "summary": "Tidak ada makanan ajaib. Yang bekerja justru pola makan yang berulang setiap hari.",
+      "points": [
+        "Panduan 'Isi Piringku': separuh piring sayur & buah, seperempat karbohidrat, seperempat lauk protein.",
+        "Pilih karbohidrat berserat (nasi merah, ubi, roti gandum) daripada yang sangat halus.",
+        "Batasi gula, garam, dan minyak berlebih — bukan dihilangkan total, tapi dikendalikan.",
+        "Minum air yang cukup; rasa haus adalah penanda yang terlambat."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Menurut 'Isi Piringku', komposisi yang dianjurkan adalah...",
+          "options": [
+            "½ karbohidrat, ¼ sayur, ¼ protein",
+            "½ sayur & buah, ¼ karbohidrat, ¼ protein",
+            "Semua karbohidrat",
+            "Hanya protein dan lemak"
+          ],
+          "answer": 1,
+          "explain": "Setengah piring untuk sayur dan buah, sisanya dibagi dua antara karbohidrat dan lauk protein."
+        },
+        {
+          "id": "q2",
+          "prompt": "Kebiasaan minum yang baik adalah...",
+          "options": [
+            "Minum hanya saat sangat haus",
+            "Minum sedikit-sedikit sepanjang hari",
+            "Minum 2 liter sekaligus sebelum tidur",
+            "Mengganti semua air dengan minuman manis"
+          ],
+          "answer": 1,
+          "explain": "Minum teratur lebih baik daripada menunggu haus. Kebutuhan tiap orang berbeda (aktivitas, cuaca, kondisi tubuh)."
+        },
+        {
+          "id": "q3",
+          "prompt": "Konsumsi garam berlebih dalam jangka panjang paling sering dikaitkan dengan...",
+          "options": ["Tekanan darah tinggi", "Rabun jauh", "Gigi berlubang", "Kulit kering"],
+          "answer": 0,
+          "explain": "Natrium berlebih menahan cairan dan meningkatkan tekanan darah — risiko utama penyakit jantung dan stroke."
+        }
+      ],
+      "cards": [
+        { "front": "Isi Piringku", "back": "½ sayur & buah · ¼ karbohidrat · ¼ protein" },
+        { "front": "Yang dibatasi", "back": "Gula, garam, minyak berlebih" }
+      ]
+    },
+    {
+      "id": "tidur",
+      "title": "Tidur Berkualitas",
+      "summary": "Tidur bukan waktu yang terbuang — di situlah tubuh dan otak melakukan perbaikan.",
+      "points": [
+        "Kebutuhan umum: dewasa 7–9 jam, remaja 8–10 jam per malam.",
+        "Jadwal tidur-bangun yang konsisten sering lebih berpengaruh daripada durasi sesekali panjang.",
+        "Kurangi kafein di sore/malam dan jauhkan layar terang menjelang tidur.",
+        "Ritual singkat (redupkan lampu, peregangan ringan) membantu otak beralih ke mode istirahat."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Kebutuhan tidur orang dewasa pada umumnya adalah...",
+          "options": ["3–4 jam", "7–9 jam", "10–12 jam", "Tidak ada patokan"],
+          "answer": 1,
+          "explain": "Sebagian besar dewasa butuh 7–9 jam. Kebutuhan remaja lebih tinggi, sekitar 8–10 jam."
+        },
+        {
+          "id": "q2",
+          "prompt": "Dampak kurang tidur yang paling sering terasa langsung adalah...",
+          "options": [
+            "Konsentrasi & suasana hati menurun",
+            "Tinggi badan bertambah cepat",
+            "Nafsu makan hilang total",
+            "Daya ingat membaik"
+          ],
+          "answer": 0,
+          "explain": "Kurang tidur menurunkan konsentrasi, emosi lebih mudah tersulut, dan daya tahan tubuh ikut melemah."
+        },
+        {
+          "id": "q3",
+          "prompt": "Kebiasaan berikut yang paling membantu kualitas tidur adalah...",
+          "options": [
+            "Minum kopi setelah makan malam",
+            "Jadwal tidur & bangun yang konsisten",
+            "Bermain gawai sampai mengantuk di tempat tidur",
+            "Tidur siang 4 jam setiap hari"
+          ],
+          "answer": 1,
+          "explain": "Ritme sirkadian menyukai keteraturan. Jam bangun yang stabil membantu tubuh mengenali waktu tidur."
+        }
+      ],
+      "cards": [
+        { "front": "Durasi tidur", "back": "Dewasa 7–9 jam · Remaja 8–10 jam" },
+        { "front": "Kunci utama", "back": "Jadwal konsisten, bukan durasi sesekali panjang" }
+      ]
+    },
+    {
+      "id": "aktivitas",
+      "title": "Aktivitas Fisik",
+      "summary": "Gerak sedikit setiap hari jauh lebih baik daripada gerak banyak tapi jarang.",
+      "points": [
+        "Rekomendasi umum: ≥150 menit aktivitas sedang per minggu (mis. jalan cepat 30 menit × 5 hari).",
+        "Tambahkan latihan kekuatan 2 kali seminggu untuk menjaga otot dan tulang.",
+        "Peregangan ringan tiap 30–60 menit bila harus duduk lama.",
+        "Naik tangga, turun satu halte lebih awal — gerak kecil yang konsisten tetap berharga."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Rekomendasi aktivitas fisik untuk orang dewasa adalah minimal...",
+          "options": [
+            "150 menit intensitas sedang per minggu",
+            "10 menit per tahun",
+            "60 menit setiap hari tanpa libur",
+            "Hanya saat sedang diet"
+          ],
+          "answer": 0,
+          "explain": "Angka umum WHO: 150 menit intensitas sedang atau 75 menit intensitas tinggi per minggu."
+        },
+        {
+          "id": "q2",
+          "prompt": "Jika pekerjaan mengharuskan duduk lama, hal paling bijak dilakukan adalah...",
+          "options": [
+            "Diam sampai lembur selesai",
+            "Berdiri & peregangan ringan tiap 30–60 menit",
+            "Minum kopi lebih banyak",
+            "Menahan napas beberapa detik"
+          ],
+          "answer": 1,
+          "explain": "Duduk terlalu lama memperlambat sirkulasi. Sela singkat untuk bergerak membantu otot dan fokus."
+        },
+        {
+          "id": "q3",
+          "prompt": "Manfaat yang paling tepat dari aktivitas fisik teratur adalah...",
+          "options": [
+            "Langsung sembuh dari semua penyakit",
+            "Menurunkan risiko penyakit jantung & memperbaiki suasana hati",
+            "Menggantikan kebutuhan tidur",
+            "Membuat tidak perlu makan sayur"
+          ],
+          "answer": 1,
+          "explain": "Olahraga teratur menjaga jantung, gula darah, berat badan, sekaligus kesehatan mental."
+        }
+      ],
+      "cards": [
+        { "front": "Target mingguan", "back": "≥150 menit intensitas sedang (mis. jalan cepat 30 mnt × 5 hari)" },
+        { "front": "Duduk lama", "back": "Sela dengan berdiri/peregangan tiap 30–60 menit" }
+      ]
+    },
+    {
+      "id": "p3k",
+      "title": "Pertolongan Pertama Ringan",
+      "summary": "Untuk keadaan darurat, telepon layanan darurat dulu. Untuk luka ringan, lakukan langkah yang tepat.",
+      "points": [
+        "Luka lecet: bersihkan dengan air mengalir & sabun, keringkan, lalu tutup dengan perban bersih.",
+        "Luka bakar ringan: alirkan air bersih (bukan es) 10–20 menit; jangan oleskan odol/kecap/mentega.",
+        "Mimisan: duduk, condongkan kepala sedikit ke depan, cubit bagian lunak hidung ±10 menit; jangan mendongak.",
+        "Segera ke fasilitas kesehatan bila: luka dalam/lebar, perdarahan tidak berhenti, sesak napas, penurunan kesadaran, atau demam lebih dari 3 hari."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Penanganan pertama luka bakar ringan yang benar adalah...",
+          "options": [
+            "Dioleskan odol atau mentega",
+            "Dialiri air bersih mengalir 10–20 menit",
+            "Ditempel es batu langsung",
+            "Ditutup rapat tanpa dibersihkan"
+          ],
+          "answer": 1,
+          "explain": "Air mengalir menurunkan suhu jaringan. Es dan odol justru bisa memperparah luka dan risiko infeksi."
+        },
+        {
+          "id": "q2",
+          "prompt": "Saat mimisan, posisi yang benar adalah...",
+          "options": [
+            "Berbaring telentang",
+            "Duduk dan condong sedikit ke depan",
+            "Mendongak setinggi mungkin",
+            "Menunduk sampai kepala di bawah lutut"
+          ],
+          "answer": 1,
+          "explain": "Condong ke depan mencegah darah mengalir ke tenggorokan. Mendongak membuat darah tertelan."
+        },
+        {
+          "id": "q3",
+          "prompt": "Tanda yang harus segera dibawa ke fasilitas kesehatan adalah...",
+          "options": [
+            "Lecet kecil di jari",
+            "Bersin sekali",
+            "Sesak napas atau penurunan kesadaran",
+            "Kuku agak panjang"
+          ],
+          "answer": 2,
+          "explain": "Sesak napas, perdarahan yang tidak berhenti, dan penurunan kesadaran termasuk kondisi gawat — jangan tunggu."
+        }
+      ],
+      "cards": [
+        { "front": "Luka bakar", "back": "Air mengalir 10–20 menit (bukan es, bukan odol)" },
+        { "front": "Mimisan", "back": "Duduk, condong ke depan, cubit hidung ±10 menit" }
+      ]
+    }
+  ]
+}

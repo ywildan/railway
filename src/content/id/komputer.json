@@ -1,0 +1,208 @@
+{
+  "id": "komputer",
+  "title": "Dasar Komputer & Internet",
+  "description": "Bekal digital dasar: mengenali perangkat, merapikan berkas, memahami internet, dan memakai AI dengan aman.",
+  "emoji": "💻",
+  "level": "pemula",
+  "minutes": 25,
+  "tags": ["komputer", "teknologi", "internet", "semua-usia"],
+  "stations": [
+    {
+      "id": "perangkat",
+      "title": "Perangkat Keras & Lunak",
+      "summary": "Hardware bisa kamu pegang. Software tidak bisa dipegang, tapi mengendalikan semuanya.",
+      "points": [
+        "Hardware: prosesor (otak), RAM (meja kerja sementara), penyimpanan (lemari arsip), layar & keyboard.",
+        "Software: sistem operasi (Windows/macOS/Linux/Android) + aplikasi di atasnya.",
+        "RAM kosong saat komputer dimatikan; penyimpanan (SSD/HDD) tetap menyimpan data.",
+        "Restart sering menyelesaikan masalah karena mengosongkan RAM dan memulai ulang proses."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Yang termasuk perangkat lunak adalah...",
+          "options": ["Keyboard", "Sistem operasi", "Prosesor", "Kabel daya"],
+          "answer": 1,
+          "explain": "Sistem operasi adalah program (software). Keyboard, prosesor, dan kabel adalah hardware."
+        },
+        {
+          "id": "q2",
+          "prompt": "Data yang tersimpan di RAM akan...",
+          "options": [
+            "Tetap ada selamanya",
+            "Hilang saat komputer dimatikan",
+            "Pindah ke layar",
+            "Berubah jadi perangkat keras"
+          ],
+          "answer": 1,
+          "explain": "RAM bersifat sementara (volatile). Untuk disimpan permanen, data harus ditulis ke SSD/HDD atau disimpan di awan."
+        },
+        {
+          "id": "q3",
+          "prompt": "Urutan yang paling tepat dari komponen tercepat ke penyimpanan jangka panjang adalah...",
+          "options": [
+            "SSD → RAM → Prosesor",
+            "Prosesor → RAM → SSD",
+            "RAM → SSD → Prosesor",
+            "Semua sama cepat"
+          ],
+          "answer": 1,
+          "explain": "Prosesor paling cepat, RAM di bawahnya, SSD/HDD jauh lebih lambat tapi tahan lama menyimpan data."
+        }
+      ],
+      "cards": [
+        { "front": "Hardware", "back": "Bisa dipegang: prosesor, RAM, SSD, keyboard" },
+        { "front": "RAM vs SSD", "back": "RAM sementara (hilang saat mati) · SSD permanen" }
+      ]
+    },
+    {
+      "id": "berkas",
+      "title": "Berkas & Pencadangan",
+      "summary": "Yang tidak punya cadangan, cepat atau lambat akan kehilangan data.",
+      "points": [
+        "Folder adalah struktur: Beranda → Dokumen → 2026 → Laporan. Rapi sejak awal lebih mudah.",
+        "Ekstensi menandakan jenis berkas: .docx (dokumen), .xlsx (lembar kerja), .pdf, .jpg, .mp4.",
+        "Aturan cadangan 3-2-1: 3 salinan, 2 media berbeda, 1 di lokasi berbeda (mis. awan).",
+        "Nama berkas yang baik: tanggal di depan + kata kunci → 2026-03-14-laporan-penjualan.xlsx."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Aturan pencadangan 3-2-1 berarti...",
+          "options": [
+            "3 komputer, 2 layar, 1 printer",
+            "3 salinan, 2 media berbeda, 1 di lokasi berbeda",
+            "3 folder, 2 file, 1 aplikasi",
+            "3 jam backup, 2 kali sehari, 1 minggu sekali"
+          ],
+          "answer": 1,
+          "explain": "Tujuannya: kalau satu media rusak atau satu lokasi terkena musibah, data tetap selamat."
+        },
+        {
+          "id": "q2",
+          "prompt": "Berkas bernama 'laporan.pdf' kemungkinan besar berisi...",
+          "options": ["Foto", "Dokumen siap cetak", "Video", "Lagu"],
+          "answer": 1,
+          "explain": ".pdf = Portable Document Format, umum untuk dokumen yang perlu tampil sama di perangkat mana pun."
+        },
+        {
+          "id": "q3",
+          "prompt": "Nama berkas yang paling mudah dicari kembali adalah...",
+          "options": [
+            "asdfgh.docx",
+            "2026-03-14-laporan-penjualan.xlsx",
+            "fix beneran final (2).docx",
+            "Dokumen1.docx"
+          ],
+          "answer": 1,
+          "explain": "Tanggal di depan membuat berkas otomatis terurut; kata kunci menjelaskan isinya."
+        }
+      ],
+      "cards": [
+        { "front": "Backup 3-2-1", "back": "3 salinan · 2 media berbeda · 1 di lokasi berbeda" },
+        { "front": "Nama berkas baik", "back": "YYYY-MM-DD + kata kunci" }
+      ]
+    },
+    {
+      "id": "internet",
+      "title": "Cara Kerja Internet",
+      "summary": "Internet pada dasarnya: alamat, jalur, dan aturan kirim-terima data.",
+      "points": [
+        "IP address = alamat perangkat di jaringan; DNS = buku telepon yang menerjemahkan nama situs ke alamat IP.",
+        "Bandwidth = lebar jalan (seberapa banyak data sekaligus); latensi = waktu tempuh (seberapa cepat respons).",
+        "Wi-Fi hanyalah cara terhubung ke jaringan lokal; 'internet mati' berbeda dengan 'Wi-Fi lemah'.",
+        "HTTPS (ikon gembok) mengenkripsi jalur data, bukan menjamin situs itu jujur."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Fungsi DNS adalah...",
+          "options": [
+            "Mempercepat prosesor",
+            "Menerjemahkan nama situs menjadi alamat IP",
+            "Menyimpan berkas di komputer",
+            "Mengecilkan ukuran foto"
+          ],
+          "answer": 1,
+          "explain": "DNS seperti buku telepon: kamu mengetik 'example.com', DNS mencarikan alamat IP-nya."
+        },
+        {
+          "id": "q2",
+          "prompt": "Video konferensi terputus-putus padahal kecepatan unduh tinggi. Kemungkinan masalahnya ada pada...",
+          "options": ["Latensi/jitter", "Ukuran layar", "Jenis keyboard", "Warna kabel"],
+          "answer": 0,
+          "explain": "Panggilan video lebih sensitif pada latensi dan stabilitas (jitter) daripada bandwidth besar."
+        },
+        {
+          "id": "q3",
+          "prompt": "Ikon gembok (HTTPS) di peramban menandakan...",
+          "options": [
+            "Situs tersebut pasti aman dan jujur",
+            "Jalur data terenkripsi antara peramban dan situs",
+            "Situs itu milik pemerintah",
+            "Tidak ada iklan di situs itu"
+          ],
+          "answer": 1,
+          "explain": "HTTPS hanya menjamin jalurnya terenkripsi. Situs penipuan pun bisa memakai HTTPS."
+        }
+      ],
+      "cards": [
+        { "front": "DNS", "back": "Buku telepon internet: nama → alamat IP" },
+        { "front": "HTTPS", "back": "Jalur terenkripsi, bukan jaminan situs jujur" }
+      ]
+    },
+    {
+      "id": "ai",
+      "title": "AI & Kecerdasan Buatan",
+      "summary": "AI sangat membantu, tetapi ia tidak tahu — ia menebak pola. Perlakukan seperti asisten yang perlu diperiksa.",
+      "points": [
+        "Model bahasa (LLM) bekerja dengan memprediksi kata berikutnya dari pola data latihannya.",
+        "Halusinasi: jawaban tampak meyakinkan tetapi salah. Selalu periksa fakta penting.",
+        "Jangan memasukkan rahasia: kata sandi, data pribadi sensitif, dokumen rahasia kantor.",
+        "Pakai AI untuk draf, penjelasan, dan latihan — keputusan akhir tetap manusia."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Hal yang paling tepat dilakukan terhadap jawaban AI untuk hal penting (obat, hukum, keuangan) adalah...",
+          "options": [
+            "Langsung dipakai tanpa cek",
+            "Dijadikan draf lalu diverifikasi ke sumber tepercaya",
+            "Disebarkan ke grup",
+            "Dihapus tanpa dibaca"
+          ],
+          "answer": 1,
+          "explain": "AI bisa salah dengan percaya diri. Verifikasi ke sumber resmi sebelum mengambil keputusan."
+        },
+        {
+          "id": "q2",
+          "prompt": "Contoh data yang sebaiknya tidak dimasukkan ke AI publik adalah...",
+          "options": [
+            "Resep masakan",
+            "Kata sandi dan nomor identitas pribadi",
+            "Daftar belanja",
+            "Ide nama kucing"
+          ],
+          "answer": 1,
+          "explain": "Apa yang dikirim ke layanan publik bisa tersimpan di sistem mereka. Jaga rahasia tetap rahasia."
+        },
+        {
+          "id": "q3",
+          "prompt": "Cara kerja model bahasa besar (LLM) secara sederhana adalah...",
+          "options": [
+            "Mencari di internet setiap kali ditanya",
+            "Memprediksi kelanjutan kata berdasarkan pola dari data latihan",
+            "Menyalin jawaban dari satu buku",
+            "Menghubungi manusia di balik layar"
+          ],
+          "answer": 1,
+          "explain": "LLM tidak 'mencari fakta' secara default — ia menghasilkan teks yang paling mungkin menurut pola yang dipelajari."
+        }
+      ],
+      "cards": [
+        { "front": "Halusinasi AI", "back": "Jawaban meyakinkan tapi salah → verifikasi" },
+        { "front": "Rahasia", "back": "Jangan kirim sandi/NIK/dokumen rahasia ke AI publik" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "id": "kesehatan",
+  "title": "Everyday Health",
+  "description": "Look after your body with the basics: nutrition, sleep, movement, and light first aid.",
+  "emoji": "🩺",
+  "level": "pemula",
+  "minutes": 20,
+  "tags": ["health", "family", "household"],
+  "stations": [
+    {
+      "id": "gizi",
+      "title": "Balanced Nutrition",
+      "summary": "There is no magic food. What works is the pattern you repeat every single day.",
+      "points": [
+        "The healthy plate: half vegetables & fruit, a quarter carbohydrates, a quarter protein.",
+        "Choose fibre-rich carbohydrates (brown rice, sweet potato, wholegrain bread) over refined ones.",
+        "Limit sugar, salt, and excess oil — controlled, not eliminated.",
+        "Drink enough water; thirst is a late signal."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "According to the healthy plate guide, the recommended split is...",
+          "options": [
+            "½ carbohydrates, ¼ vegetables, ¼ protein",
+            "½ vegetables & fruit, ¼ carbohydrates, ¼ protein",
+            "Only carbohydrates",
+            "Only protein and fat"
+          ],
+          "answer": 1,
+          "explain": "Half the plate is vegetables and fruit; the rest is split between carbohydrates and protein."
+        },
+        {
+          "id": "q2",
+          "prompt": "A good drinking habit is...",
+          "options": [
+            "Drinking only when very thirsty",
+            "Sipping small amounts throughout the day",
+            "Drinking 2 litres at once before bed",
+            "Replacing all water with sweet drinks"
+          ],
+          "answer": 1,
+          "explain": "Regular sips beat waiting for thirst. Needs vary with activity, weather, and body condition."
+        },
+        {
+          "id": "q3",
+          "prompt": "Long-term excess salt intake is most often linked to...",
+          "options": ["High blood pressure", "Short-sightedness", "Tooth decay", "Dry skin"],
+          "answer": 0,
+          "explain": "Excess sodium makes the body retain fluid and raises blood pressure — a key risk for heart disease and stroke."
+        }
+      ],
+      "cards": [
+        { "front": "Healthy plate", "back": "½ vegetables & fruit · ¼ carbohydrates · ¼ protein" },
+        { "front": "Limit these", "back": "Sugar, salt, excess oil" }
+      ]
+    },
+    {
+      "id": "tidur",
+      "title": "Quality Sleep",
+      "summary": "Sleep is not wasted time — that is when body and brain do their repairs.",
+      "points": [
+        "General needs: adults 7–9 hours, teenagers 8–10 hours a night.",
+        "A consistent sleep-wake schedule often matters more than an occasional long night.",
+        "Cut caffeine in the afternoon/evening and keep bright screens away before bed.",
+        "A short ritual (dim lights, light stretching) helps the brain switch to rest mode."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "The usual sleep need for an adult is...",
+          "options": ["3–4 hours", "7–9 hours", "10–12 hours", "There is no guideline"],
+          "answer": 1,
+          "explain": "Most adults need 7–9 hours. Teenagers need more, around 8–10 hours."
+        },
+        {
+          "id": "q2",
+          "prompt": "The most immediate effect of too little sleep is...",
+          "options": [
+            "Lower concentration and mood",
+            "Faster growth in height",
+            "Complete loss of appetite",
+            "Better memory"
+          ],
+          "answer": 0,
+          "explain": "Sleep loss lowers concentration, shortens your fuse, and weakens immunity."
+        },
+        {
+          "id": "q3",
+          "prompt": "Which habit best supports sleep quality?",
+          "options": [
+            "Coffee after dinner",
+            "A consistent sleep & wake schedule",
+            "Scrolling on your phone in bed until you drop",
+            "A 4-hour nap every day"
+          ],
+          "answer": 1,
+          "explain": "Circadian rhythm loves regularity. A stable wake time teaches the body when to sleep."
+        }
+      ],
+      "cards": [
+        { "front": "Sleep duration", "back": "Adults 7–9 h · Teenagers 8–10 h" },
+        { "front": "Key factor", "back": "A consistent schedule, not rare long nights" }
+      ]
+    },
+    {
+      "id": "aktivitas",
+      "title": "Physical Activity",
+      "summary": "A little movement every day beats a lot of movement once in a while.",
+      "points": [
+        "General guideline: at least 150 minutes of moderate activity per week (e.g. brisk walking 30 min × 5 days).",
+        "Add strength training twice a week to protect muscles and bones.",
+        "Stretch lightly every 30–60 minutes when you must sit for long periods.",
+        "Take the stairs, get off one stop earlier — small consistent movement still counts."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "The recommended minimum physical activity for adults is...",
+          "options": [
+            "150 minutes of moderate intensity per week",
+            "10 minutes per year",
+            "60 minutes daily with no rest days",
+            "Only while dieting"
+          ],
+          "answer": 0,
+          "explain": "The common WHO figure is 150 minutes moderate or 75 minutes vigorous per week."
+        },
+        {
+          "id": "q2",
+          "prompt": "If your job requires long hours of sitting, the wisest habit is...",
+          "options": [
+            "Stay still until overtime ends",
+            "Stand and stretch lightly every 30–60 minutes",
+            "Drink more coffee",
+            "Hold your breath for a few seconds"
+          ],
+          "answer": 1,
+          "explain": "Prolonged sitting slows circulation. Short movement breaks help muscles and focus."
+        },
+        {
+          "id": "q3",
+          "prompt": "The most accurate benefit of regular physical activity is...",
+          "options": [
+            "It instantly cures every illness",
+            "It lowers heart disease risk and improves mood",
+            "It replaces the need for sleep",
+            "It means you no longer need vegetables"
+          ],
+          "answer": 1,
+          "explain": "Regular exercise protects the heart, blood sugar, and weight, and supports mental health."
+        }
+      ],
+      "cards": [
+        { "front": "Weekly target", "back": "≥150 minutes moderate (e.g. brisk walk 30 min × 5 days)" },
+        { "front": "Long sitting", "back": "Break it with standing/stretching every 30–60 min" }
+      ]
+    },
+    {
+      "id": "p3k",
+      "title": "Basic First Aid",
+      "summary": "For emergencies, call emergency services first. For minor injuries, use the right steps.",
+      "points": [
+        "Grazes: rinse with running water and soap, dry, then cover with a clean dressing.",
+        "Minor burns: run clean (not ice) water over it for 10–20 minutes; never apply toothpaste, soy sauce, or butter.",
+        "Nosebleeds: sit up, lean slightly forward, pinch the soft part of the nose for about 10 minutes; do not tilt the head back.",
+        "Seek medical care immediately for: deep or wide wounds, bleeding that will not stop, breathlessness, reduced consciousness, or fever lasting more than 3 days."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Correct first treatment for a minor burn is...",
+          "options": [
+            "Spread toothpaste or butter on it",
+            "Run clean water over it for 10–20 minutes",
+            "Press ice cubes directly onto it",
+            "Cover it tightly without cleaning"
+          ],
+          "answer": 1,
+          "explain": "Running water cools the tissue. Ice and toothpaste can worsen the burn and raise infection risk."
+        },
+        {
+          "id": "q2",
+          "prompt": "During a nosebleed, the correct position is...",
+          "options": [
+            "Lying flat on your back",
+            "Sitting up and leaning slightly forward",
+            "Tilting the head as far back as possible",
+            "Bending down with your head below your knees"
+          ],
+          "answer": 1,
+          "explain": "Leaning forward stops blood running down the throat. Tilting back makes you swallow it."
+        },
+        {
+          "id": "q3",
+          "prompt": "Which sign needs immediate medical care?",
+          "options": [
+            "A small graze on a finger",
+            "A single sneeze",
+            "Breathlessness or reduced consciousness",
+            "Slightly long fingernails"
+          ],
+          "answer": 2,
+          "explain": "Breathlessness, uncontrolled bleeding, and reduced consciousness are emergencies — do not wait."
+        }
+      ],
+      "cards": [
+        { "front": "Minor burn", "back": "Running water 10–20 min (no ice, no toothpaste)" },
+        { "front": "Nosebleed", "back": "Sit, lean forward, pinch the nose ~10 min" }
+      ]
+    }
+  ]
+}

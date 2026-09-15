@@ -1,0 +1,168 @@
+{
+  "id": "inggris",
+  "title": "Bahasa Inggris Praktis",
+  "description": "Bahasa Inggris untuk dipakai, bukan hanya dihafal: sapaan, kosakata harian, tenses dasar, frasa bepergian & kerja.",
+  "emoji": "🔤",
+  "level": "pemula",
+  "minutes": 25,
+  "tags": ["bahasa", "inggris", "pelajar", "kerja"],
+  "stations": [
+    {
+      "id": "sapaan",
+      "title": "Sapaan & Perkenalan",
+      "summary": "Kesan pertama lahir dari 10 detik pertama: sapaan, nama, dan cara berterima kasih.",
+      "points": [
+        "'Hello' aman di semua situasi; 'Hi' lebih santai; 'Good morning' lebih formal.",
+        "Perkenalan: 'My name is Ani' atau 'I'm Ani'. Balas dengan 'Nice to meet you'.",
+        "'How are you?' adalah basa-basi. Jawab singkat: 'I'm good, thanks. And you?'",
+        "Sopan santun: tambahkan 'please' saat meminta dan 'thank you' setelah menerima."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Balasan paling alami untuk 'How are you?' dalam percakapan santai adalah...",
+          "options": ["I'm good, thanks. And you?", "I am twenty years old.", "Yes, I am.", "Thank you very much."],
+          "answer": 0,
+          "explain": "'How are you?' adalah sapaan, bukan pertanyaan mendalam. Jawab singkat lalu balas bertanya."
+        },
+        {
+          "id": "q2",
+          "prompt": "Seseorang berkata 'Nice to meet you.' Jawaban yang tepat...",
+          "options": ["Nice to meet you too.", "See you yesterday.", "I am fine, thank you.", "Good night."],
+          "answer": 0,
+          "explain": "Tambahkan 'too' untuk membalas perasaan yang sama."
+        },
+        {
+          "id": "q3",
+          "prompt": "Kalimat yang paling sopan untuk meminta bantuan adalah...",
+          "options": ["Give me that!", "Could you help me, please?", "Help! Now!", "I want it."],
+          "answer": 1,
+          "explain": "'Could you ...' + 'please' membuat permintaan terdengar santun dan tidak memerintah."
+        }
+      ],
+      "cards": [
+        { "front": "How are you?", "back": "Basa-basi. Jawab: I'm good, thanks. And you?" },
+        { "front": "Please & thank you", "back": "Pakai 'Could you ...' untuk meminta dengan sopan" }
+      ]
+    },
+    {
+      "id": "keseharian",
+      "title": "Kosakata Harian",
+      "summary": "Kuasai dulu yang sering muncul: hari, waktu, angka, dan kata tanya.",
+      "points": [
+        "Hari: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday.",
+        "Kata tanya 5W+1H: What, Who, When, Where, Why, How.",
+        "Waktu: 'It's seven fifteen' (07.15); 'half past six' (06.30); 'a quarter to eight' (07.45).",
+        "Angka besar: 1.000 = a/one thousand; 1.000.000 = a/one million."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "'Where' digunakan untuk menanyakan...",
+          "options": ["Waktu", "Tempat", "Alasan", "Cara"],
+          "answer": 1,
+          "explain": "Where = di mana/tempat. When = kapan, Why = mengapa, How = bagaimana."
+        },
+        {
+          "id": "q2",
+          "prompt": "07.45 dalam bahasa Inggris yang umum adalah...",
+          "options": ["A quarter past seven", "A quarter to eight", "Half past seven", "Seven o'clock"],
+          "answer": 1,
+          "explain": "Menit lebih dari 30 menggunakan 'to' menuju jam berikutnya: 07.45 = a quarter to eight."
+        },
+        {
+          "id": "q3",
+          "prompt": "Urutan hari yang benar adalah...",
+          "options": [
+            "Monday, Tuesday, Wednesday, Thursday",
+            "Monday, Wednesday, Tuesday, Thursday",
+            "Tuesday, Monday, Thursday, Wednesday",
+            "Sunday, Monday, Wednesday, Tuesday"
+          ],
+          "answer": 0,
+          "explain": "Senin, Selasa, Rabu, Kamis = Monday, Tuesday, Wednesday, Thursday."
+        }
+      ],
+      "cards": [
+        { "front": "5W + 1H", "back": "What · Who · When · Where · Why · How" },
+        { "front": "07.45", "back": "A quarter to eight" }
+      ]
+    },
+    {
+      "id": "tenses",
+      "title": "Tenses Dasar",
+      "summary": "Untuk percakapan sehari-hari, kuasai dulu Present Simple dan Present Continuous.",
+      "points": [
+        "Present Simple untuk kebiasaan & fakta: 'I work from home.'",
+        "Present Continuous untuk yang sedang terjadi: 'I am working right now.'",
+        "Kata penanda kebiasaan: always, usually, often, sometimes, never.",
+        "Kata penanda sedang berlangsung: now, right now, at the moment."
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "'She ___ to the office every day.' Kata yang tepat adalah...",
+          "options": ["go", "goes", "going", "is go"],
+          "answer": 1,
+          "explain": "Present Simple, subjek orang ketiga tunggal (she/he/it) → kata kerja ditambah -s/-es: goes."
+        },
+        {
+          "id": "q2",
+          "prompt": "Kalimat yang menyatakan kejadian sedang berlangsung saat ini adalah...",
+          "options": ["I drink coffee every morning.", "I am drinking coffee right now.", "I drank coffee.", "I will drink coffee."],
+          "answer": 1,
+          "explain": "Present Continuous (am/is/are + -ing) dipakai untuk sesuatu yang terjadi sekarang."
+        },
+        {
+          "id": "q3",
+          "prompt": "Pertanyaan Present Simple yang benar adalah...",
+          "options": ["Do you like spicy food?", "Are you like spicy food?", "You like spicy food?", "Does you like spicy food?"],
+          "answer": 0,
+          "explain": "Gunakan do/does untuk pertanyaan Present Simple: 'Do you like...', 'Does she like...'."
+        }
+      ],
+      "cards": [
+        { "front": "Present Simple", "back": "Kebiasaan & fakta: I work from home" },
+        { "front": "Present Continuous", "back": "Sedang terjadi: I am working right now" }
+      ]
+    },
+    {
+      "id": "bepergian",
+      "title": "Bepergian & Bekerja",
+      "summary": "Frasa siap pakai untuk perjalanan, rapat, dan email singkat.",
+      "points": [
+        "Arah: 'Excuse me, how do I get to the station?' — 'Go straight, then turn left.'",
+        "Di bandara/hotel: 'Where is the check-in counter?' · 'I'd like to check in, please.'",
+        "Rapat: 'Could you repeat that, please?' · 'I'll send the summary by email.'",
+        "Email singkat: 'Hi Rina, thanks for your email. I'll get back to you tomorrow.'"
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Untuk meminta orang mengulang ucapannya dengan sopan, katakan...",
+          "options": ["Say it again!", "Could you repeat that, please?", "What do you want?", "Repeat now!"],
+          "answer": 1,
+          "explain": "'Could you repeat that, please?' sopan dan lazim dipakai di rapat maupun telepon."
+        },
+        {
+          "id": "q2",
+          "prompt": "Arti 'Go straight, then turn left' adalah...",
+          "options": ["Belok kiri lalu jalan lurus", "Jalan lurus lalu belok kiri", "Kembali ke belakang", "Belok kanan dua kali"],
+          "answer": 1,
+          "explain": "go straight = lurus; turn left = belok kiri."
+        },
+        {
+          "id": "q3",
+          "prompt": "Pembuka email informal yang tepat untuk rekan kerja sudah akrab adalah...",
+          "options": ["To whom it may concern,", "Hi Rina,", "Dear Sir/Madam,", "Yours faithfully,"],
+          "answer": 1,
+          "explain": "'Hi <nama>' santai tapi profesional. 'Dear Sir/Madam' untuk surat formal tanpa nama."
+        }
+      ],
+      "cards": [
+        { "front": "Minta arah", "back": "Excuse me, how do I get to the station?" },
+        { "front": "Minta ulang", "back": "Could you repeat that, please?" }
+      ]
+    }
+  ]
+}
